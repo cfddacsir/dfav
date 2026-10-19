@@ -1,0 +1,3336 @@
+Tue Jun  2 18:37:55 PDT 2026
+list of packages ...
+pandas
+numpy
+scipy
+matplotlib
+requests
+bs4
+seaborn
+PIL 
+pptx
+datasette
+ipython
+ipython-sql
+statsmodels
+sklearn
+scikit-learn
+yfinance
+ipython
+psycopg2
+ipython-sql
+plotly
+openpyxl
+folium
+geopandasTue Jun  2 18:37:55 PDT 2026
+install pandas
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: pandas in /Users/dac/Library/Python/3.9/lib/python/site-packages (2.2.1)
+Requirement already satisfied: numpy<2,>=1.22.4 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from pandas) (1.26.4)
+Requirement already satisfied: python-dateutil>=2.8.2 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from pandas) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from pandas) (2024.1)
+Requirement already satisfied: tzdata>=2022.7 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from pandas) (2024.1)
+Requirement already satisfied: six>=1.5 in /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages (from python-dateutil>=2.8.2->pandas) (1.15.0)
+Tue Jun  2 18:37:56 PDT 2026
+install numpy
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: numpy in /Users/dac/Library/Python/3.9/lib/python/site-packages (1.26.4)
+Tue Jun  2 18:37:56 PDT 2026
+install scipy
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: scipy in /Users/dac/Library/Python/3.9/lib/python/site-packages (1.13.0)
+Requirement already satisfied: numpy<2.3,>=1.22.4 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from scipy) (1.26.4)
+Tue Jun  2 18:37:57 PDT 2026
+install matplotlib
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: matplotlib in /Users/dac/Library/Python/3.9/lib/python/site-packages (3.8.4)
+Requirement already satisfied: contourpy>=1.0.1 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from matplotlib) (1.2.1)
+Requirement already satisfied: cycler>=0.10 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from matplotlib) (0.12.1)
+Requirement already satisfied: fonttools>=4.22.0 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from matplotlib) (4.51.0)
+Requirement already satisfied: kiwisolver>=1.3.1 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from matplotlib) (1.4.5)
+Requirement already satisfied: numpy>=1.21 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from matplotlib) (1.26.4)
+Requirement already satisfied: packaging>=20.0 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from matplotlib) (24.0)
+Requirement already satisfied: pillow>=8 in /Library/Python/3.9/site-packages (from matplotlib) (9.5.0)
+Requirement already satisfied: pyparsing>=2.3.1 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from matplotlib) (3.1.2)
+Requirement already satisfied: python-dateutil>=2.7 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from matplotlib) (2.9.0.post0)
+Requirement already satisfied: importlib-resources>=3.2.0 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from matplotlib) (6.4.0)
+Requirement already satisfied: zipp>=3.1.0 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from importlib-resources>=3.2.0->matplotlib) (3.20.2)
+Requirement already satisfied: six>=1.5 in /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages (from python-dateutil>=2.7->matplotlib) (1.15.0)
+Tue Jun  2 18:37:57 PDT 2026
+install requests
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: requests in /Users/dac/Library/Python/3.9/lib/python/site-packages (2.31.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from requests) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from requests) (3.7)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from requests) (2.2.1)
+Requirement already satisfied: certifi>=2017.4.17 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from requests) (2024.2.2)
+Tue Jun  2 18:37:58 PDT 2026
+install bs4
+Defaulting to user installation because normal site-packages is not writeable
+Collecting bs4
+  Using cached bs4-0.0.2-py2.py3-none-any.whl.metadata (411 bytes)
+Requirement already satisfied: beautifulsoup4 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from bs4) (4.12.3)
+Requirement already satisfied: soupsieve>1.2 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from beautifulsoup4->bs4) (2.6)
+Using cached bs4-0.0.2-py2.py3-none-any.whl (1.2 kB)
+Installing collected packages: bs4
+Successfully installed bs4-0.0.2
+Tue Jun  2 18:37:59 PDT 2026
+install seaborn
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: seaborn in /Users/dac/Library/Python/3.9/lib/python/site-packages (0.13.2)
+Requirement already satisfied: numpy!=1.24.0,>=1.20 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from seaborn) (1.26.4)
+Requirement already satisfied: pandas>=1.2 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from seaborn) (2.2.1)
+Requirement already satisfied: matplotlib!=3.6.1,>=3.4 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from seaborn) (3.8.4)
+Requirement already satisfied: contourpy>=1.0.1 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (1.2.1)
+Requirement already satisfied: cycler>=0.10 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (0.12.1)
+Requirement already satisfied: fonttools>=4.22.0 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (4.51.0)
+Requirement already satisfied: kiwisolver>=1.3.1 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (1.4.5)
+Requirement already satisfied: packaging>=20.0 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (24.0)
+Requirement already satisfied: pillow>=8 in /Library/Python/3.9/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (9.5.0)
+Requirement already satisfied: pyparsing>=2.3.1 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (3.1.2)
+Requirement already satisfied: python-dateutil>=2.7 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (2.9.0.post0)
+Requirement already satisfied: importlib-resources>=3.2.0 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (6.4.0)
+Requirement already satisfied: pytz>=2020.1 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from pandas>=1.2->seaborn) (2024.1)
+Requirement already satisfied: tzdata>=2022.7 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from pandas>=1.2->seaborn) (2024.1)
+Requirement already satisfied: zipp>=3.1.0 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from importlib-resources>=3.2.0->matplotlib!=3.6.1,>=3.4->seaborn) (3.20.2)
+Requirement already satisfied: six>=1.5 in /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages (from python-dateutil>=2.7->matplotlib!=3.6.1,>=3.4->seaborn) (1.15.0)
+Tue Jun  2 18:37:59 PDT 2026
+install PIL
+Defaulting to user installation because normal site-packages is not writeable
+Tue Jun  2 18:38:00 PDT 2026
+install pptx
+Defaulting to user installation because normal site-packages is not writeable
+Tue Jun  2 18:38:00 PDT 2026
+install datasette
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: datasette in /Users/dac/Library/Python/3.9/lib/python/site-packages (0.65)
+Requirement already satisfied: asgiref>=3.2.10 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from datasette) (3.8.1)
+Requirement already satisfied: click>=7.1.1 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from datasette) (8.1.7)
+Requirement already satisfied: click-default-group>=1.2.3 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from datasette) (1.2.4)
+Requirement already satisfied: Jinja2>=2.10.3 in /Library/Python/3.9/site-packages (from datasette) (3.1.4)
+Requirement already satisfied: hupper>=1.9 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from datasette) (1.12.1)
+Requirement already satisfied: httpx>=0.20 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from datasette) (0.27.2)
+Requirement already satisfied: pluggy>=1.0 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from datasette) (1.5.0)
+Requirement already satisfied: uvicorn>=0.11 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from datasette) (0.32.0)
+Requirement already satisfied: aiofiles>=0.4 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from datasette) (24.1.0)
+Requirement already satisfied: janus>=0.6.2 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from datasette) (1.0.0)
+Requirement already satisfied: asgi-csrf>=0.9 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from datasette) (0.10)
+Requirement already satisfied: PyYAML>=5.3 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from datasette) (6.0.2)
+Requirement already satisfied: mergedeep>=1.1.1 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from datasette) (1.3.4)
+Requirement already satisfied: itsdangerous>=1.1 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from datasette) (2.2.0)
+Requirement already satisfied: setuptools in /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages (from datasette) (58.0.4)
+Requirement already satisfied: pip in /Users/dac/Library/Python/3.9/lib/python/site-packages (from datasette) (24.2)
+Requirement already satisfied: platformdirs>=2.1.0 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from datasette) (4.3.6)
+Requirement already satisfied: typing-extensions>=4.0.0 in /Library/Python/3.9/site-packages (from datasette) (4.12.2)
+Requirement already satisfied: flexcache>=0.3 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from datasette) (0.3)
+Requirement already satisfied: flexparser>=0.3 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from datasette) (0.3.1)
+Requirement already satisfied: python-multipart in /Users/dac/Library/Python/3.9/lib/python/site-packages (from asgi-csrf>=0.9->datasette) (0.0.12)
+Requirement already satisfied: anyio in /Users/dac/Library/Python/3.9/lib/python/site-packages (from httpx>=0.20->datasette) (4.6.2.post1)
+Requirement already satisfied: certifi in /Users/dac/Library/Python/3.9/lib/python/site-packages (from httpx>=0.20->datasette) (2024.2.2)
+Requirement already satisfied: httpcore==1.* in /Users/dac/Library/Python/3.9/lib/python/site-packages (from httpx>=0.20->datasette) (1.0.6)
+Requirement already satisfied: idna in /Users/dac/Library/Python/3.9/lib/python/site-packages (from httpx>=0.20->datasette) (3.7)
+Requirement already satisfied: sniffio in /Users/dac/Library/Python/3.9/lib/python/site-packages (from httpx>=0.20->datasette) (1.3.1)
+Requirement already satisfied: h11<0.15,>=0.13 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from httpcore==1.*->httpx>=0.20->datasette) (0.14.0)
+Requirement already satisfied: MarkupSafe>=2.0 in /Library/Python/3.9/site-packages (from Jinja2>=2.10.3->datasette) (2.1.5)
+Requirement already satisfied: exceptiongroup>=1.0.2 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from anyio->httpx>=0.20->datasette) (1.2.2)
+Tue Jun  2 18:38:01 PDT 2026
+install ipython
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: ipython in /Users/dac/Library/Python/3.9/lib/python/site-packages (8.18.1)
+Requirement already satisfied: decorator in /Library/Python/3.9/site-packages (from ipython) (4.4.2)
+Requirement already satisfied: jedi>=0.16 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython) (0.19.1)
+Requirement already satisfied: matplotlib-inline in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython) (0.1.7)
+Requirement already satisfied: prompt-toolkit<3.1.0,>=3.0.41 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython) (3.0.48)
+Requirement already satisfied: pygments>=2.4.0 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython) (2.18.0)
+Requirement already satisfied: stack-data in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython) (0.6.3)
+Requirement already satisfied: traitlets>=5 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython) (5.14.3)
+Requirement already satisfied: typing-extensions in /Library/Python/3.9/site-packages (from ipython) (4.12.2)
+Requirement already satisfied: exceptiongroup in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython) (1.2.2)
+Requirement already satisfied: pexpect>4.3 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython) (4.9.0)
+Requirement already satisfied: parso<0.9.0,>=0.8.3 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from jedi>=0.16->ipython) (0.8.4)
+Requirement already satisfied: ptyprocess>=0.5 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from pexpect>4.3->ipython) (0.7.0)
+Requirement already satisfied: wcwidth in /Users/dac/Library/Python/3.9/lib/python/site-packages (from prompt-toolkit<3.1.0,>=3.0.41->ipython) (0.2.13)
+Requirement already satisfied: executing>=1.2.0 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from stack-data->ipython) (2.1.0)
+Requirement already satisfied: asttokens>=2.1.0 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from stack-data->ipython) (2.4.1)
+Requirement already satisfied: pure-eval in /Users/dac/Library/Python/3.9/lib/python/site-packages (from stack-data->ipython) (0.2.3)
+Requirement already satisfied: six>=1.12.0 in /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages (from asttokens>=2.1.0->stack-data->ipython) (1.15.0)
+Tue Jun  2 18:38:01 PDT 2026
+install ipython-sql
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: ipython-sql in /Users/dac/Library/Python/3.9/lib/python/site-packages (0.5.0)
+Requirement already satisfied: prettytable in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython-sql) (3.11.0)
+Requirement already satisfied: ipython in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython-sql) (8.18.1)
+Requirement already satisfied: sqlalchemy>=2.0 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython-sql) (2.0.36)
+Requirement already satisfied: sqlparse in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython-sql) (0.5.1)
+Requirement already satisfied: six in /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages (from ipython-sql) (1.15.0)
+Requirement already satisfied: ipython-genutils in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython-sql) (0.2.0)
+Requirement already satisfied: typing-extensions>=4.6.0 in /Library/Python/3.9/site-packages (from sqlalchemy>=2.0->ipython-sql) (4.12.2)
+Requirement already satisfied: decorator in /Library/Python/3.9/site-packages (from ipython->ipython-sql) (4.4.2)
+Requirement already satisfied: jedi>=0.16 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython->ipython-sql) (0.19.1)
+Requirement already satisfied: matplotlib-inline in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython->ipython-sql) (0.1.7)
+Requirement already satisfied: prompt-toolkit<3.1.0,>=3.0.41 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython->ipython-sql) (3.0.48)
+Requirement already satisfied: pygments>=2.4.0 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython->ipython-sql) (2.18.0)
+Requirement already satisfied: stack-data in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython->ipython-sql) (0.6.3)
+Requirement already satisfied: traitlets>=5 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython->ipython-sql) (5.14.3)
+Requirement already satisfied: exceptiongroup in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython->ipython-sql) (1.2.2)
+Requirement already satisfied: pexpect>4.3 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython->ipython-sql) (4.9.0)
+Requirement already satisfied: wcwidth in /Users/dac/Library/Python/3.9/lib/python/site-packages (from prettytable->ipython-sql) (0.2.13)
+Requirement already satisfied: parso<0.9.0,>=0.8.3 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from jedi>=0.16->ipython->ipython-sql) (0.8.4)
+Requirement already satisfied: ptyprocess>=0.5 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from pexpect>4.3->ipython->ipython-sql) (0.7.0)
+Requirement already satisfied: executing>=1.2.0 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from stack-data->ipython->ipython-sql) (2.1.0)
+Requirement already satisfied: asttokens>=2.1.0 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from stack-data->ipython->ipython-sql) (2.4.1)
+Requirement already satisfied: pure-eval in /Users/dac/Library/Python/3.9/lib/python/site-packages (from stack-data->ipython->ipython-sql) (0.2.3)
+Tue Jun  2 18:38:02 PDT 2026
+install statsmodels
+Defaulting to user installation because normal site-packages is not writeable
+Collecting statsmodels
+  Downloading statsmodels-0.14.6-cp39-cp39-macosx_11_0_arm64.whl.metadata (9.5 kB)
+Requirement already satisfied: numpy<3,>=1.22.3 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from statsmodels) (1.26.4)
+Requirement already satisfied: scipy!=1.9.2,>=1.8 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from statsmodels) (1.13.0)
+Requirement already satisfied: pandas!=2.1.0,>=1.4 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from statsmodels) (2.2.1)
+Collecting patsy>=0.5.6 (from statsmodels)
+  Downloading patsy-1.0.2-py2.py3-none-any.whl.metadata (3.6 kB)
+Requirement already satisfied: packaging>=21.3 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from statsmodels) (24.0)
+Requirement already satisfied: python-dateutil>=2.8.2 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from pandas!=2.1.0,>=1.4->statsmodels) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from pandas!=2.1.0,>=1.4->statsmodels) (2024.1)
+Requirement already satisfied: tzdata>=2022.7 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from pandas!=2.1.0,>=1.4->statsmodels) (2024.1)
+Requirement already satisfied: six>=1.5 in /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages (from python-dateutil>=2.8.2->pandas!=2.1.0,>=1.4->statsmodels) (1.15.0)
+Downloading statsmodels-0.14.6-cp39-cp39-macosx_11_0_arm64.whl (10.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.0/10.0 MB 40.5 MB/s eta 0:00:00
+Downloading patsy-1.0.2-py2.py3-none-any.whl (233 kB)
+Installing collected packages: patsy, statsmodels
+Successfully installed patsy-1.0.2 statsmodels-0.14.6
+Tue Jun  2 18:38:04 PDT 2026
+install sklearn
+Defaulting to user installation because normal site-packages is not writeable
+Collecting sklearn
+  Downloading sklearn-0.0.post12.tar.gz (2.6 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'error'
+Tue Jun  2 18:38:05 PDT 2026
+install scikit-learn
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: scikit-learn in /Users/dac/Library/Python/3.9/lib/python/site-packages (1.5.2)
+Requirement already satisfied: numpy>=1.19.5 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from scikit-learn) (1.26.4)
+Requirement already satisfied: scipy>=1.6.0 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from scikit-learn) (1.13.0)
+Requirement already satisfied: joblib>=1.2.0 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from scikit-learn) (1.4.2)
+Requirement already satisfied: threadpoolctl>=3.1.0 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from scikit-learn) (3.5.0)
+Tue Jun  2 18:38:06 PDT 2026
+install yfinance
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: yfinance in /Users/dac/Library/Python/3.9/lib/python/site-packages (0.2.44)
+Requirement already satisfied: pandas>=1.3.0 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from yfinance) (2.2.1)
+Requirement already satisfied: numpy>=1.16.5 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from yfinance) (1.26.4)
+Requirement already satisfied: requests>=2.31 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from yfinance) (2.31.0)
+Requirement already satisfied: multitasking>=0.0.7 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from yfinance) (0.0.11)
+Requirement already satisfied: lxml>=4.9.1 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from yfinance) (5.2.1)
+Requirement already satisfied: platformdirs>=2.0.0 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from yfinance) (4.3.6)
+Requirement already satisfied: pytz>=2022.5 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from yfinance) (2024.1)
+Requirement already satisfied: frozendict>=2.3.4 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from yfinance) (2.4.6)
+Requirement already satisfied: peewee>=3.16.2 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from yfinance) (3.17.7)
+Requirement already satisfied: beautifulsoup4>=4.11.1 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from yfinance) (4.12.3)
+Requirement already satisfied: html5lib>=1.1 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from yfinance) (1.1)
+Requirement already satisfied: soupsieve>1.2 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from beautifulsoup4>=4.11.1->yfinance) (2.6)
+Requirement already satisfied: six>=1.9 in /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages (from html5lib>=1.1->yfinance) (1.15.0)
+Requirement already satisfied: webencodings in /Users/dac/Library/Python/3.9/lib/python/site-packages (from html5lib>=1.1->yfinance) (0.5.1)
+Requirement already satisfied: python-dateutil>=2.8.2 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from pandas>=1.3.0->yfinance) (2.9.0.post0)
+Requirement already satisfied: tzdata>=2022.7 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from pandas>=1.3.0->yfinance) (2024.1)
+Requirement already satisfied: charset-normalizer<4,>=2 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from requests>=2.31->yfinance) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from requests>=2.31->yfinance) (3.7)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from requests>=2.31->yfinance) (2.2.1)
+Requirement already satisfied: certifi>=2017.4.17 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from requests>=2.31->yfinance) (2024.2.2)
+Tue Jun  2 18:38:06 PDT 2026
+install ipython
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: ipython in /Users/dac/Library/Python/3.9/lib/python/site-packages (8.18.1)
+Requirement already satisfied: decorator in /Library/Python/3.9/site-packages (from ipython) (4.4.2)
+Requirement already satisfied: jedi>=0.16 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython) (0.19.1)
+Requirement already satisfied: matplotlib-inline in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython) (0.1.7)
+Requirement already satisfied: prompt-toolkit<3.1.0,>=3.0.41 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython) (3.0.48)
+Requirement already satisfied: pygments>=2.4.0 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython) (2.18.0)
+Requirement already satisfied: stack-data in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython) (0.6.3)
+Requirement already satisfied: traitlets>=5 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython) (5.14.3)
+Requirement already satisfied: typing-extensions in /Library/Python/3.9/site-packages (from ipython) (4.12.2)
+Requirement already satisfied: exceptiongroup in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython) (1.2.2)
+Requirement already satisfied: pexpect>4.3 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython) (4.9.0)
+Requirement already satisfied: parso<0.9.0,>=0.8.3 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from jedi>=0.16->ipython) (0.8.4)
+Requirement already satisfied: ptyprocess>=0.5 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from pexpect>4.3->ipython) (0.7.0)
+Requirement already satisfied: wcwidth in /Users/dac/Library/Python/3.9/lib/python/site-packages (from prompt-toolkit<3.1.0,>=3.0.41->ipython) (0.2.13)
+Requirement already satisfied: executing>=1.2.0 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from stack-data->ipython) (2.1.0)
+Requirement already satisfied: asttokens>=2.1.0 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from stack-data->ipython) (2.4.1)
+Requirement already satisfied: pure-eval in /Users/dac/Library/Python/3.9/lib/python/site-packages (from stack-data->ipython) (0.2.3)
+Requirement already satisfied: six>=1.12.0 in /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages (from asttokens>=2.1.0->stack-data->ipython) (1.15.0)
+Tue Jun  2 18:38:07 PDT 2026
+install psycopg2
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: psycopg2 in /Users/dac/Library/Python/3.9/lib/python/site-packages (2.9.10)
+Tue Jun  2 18:38:07 PDT 2026
+install ipython-sql
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: ipython-sql in /Users/dac/Library/Python/3.9/lib/python/site-packages (0.5.0)
+Requirement already satisfied: prettytable in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython-sql) (3.11.0)
+Requirement already satisfied: ipython in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython-sql) (8.18.1)
+Requirement already satisfied: sqlalchemy>=2.0 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython-sql) (2.0.36)
+Requirement already satisfied: sqlparse in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython-sql) (0.5.1)
+Requirement already satisfied: six in /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages (from ipython-sql) (1.15.0)
+Requirement already satisfied: ipython-genutils in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython-sql) (0.2.0)
+Requirement already satisfied: typing-extensions>=4.6.0 in /Library/Python/3.9/site-packages (from sqlalchemy>=2.0->ipython-sql) (4.12.2)
+Requirement already satisfied: decorator in /Library/Python/3.9/site-packages (from ipython->ipython-sql) (4.4.2)
+Requirement already satisfied: jedi>=0.16 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython->ipython-sql) (0.19.1)
+Requirement already satisfied: matplotlib-inline in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython->ipython-sql) (0.1.7)
+Requirement already satisfied: prompt-toolkit<3.1.0,>=3.0.41 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython->ipython-sql) (3.0.48)
+Requirement already satisfied: pygments>=2.4.0 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython->ipython-sql) (2.18.0)
+Requirement already satisfied: stack-data in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython->ipython-sql) (0.6.3)
+Requirement already satisfied: traitlets>=5 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython->ipython-sql) (5.14.3)
+Requirement already satisfied: exceptiongroup in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython->ipython-sql) (1.2.2)
+Requirement already satisfied: pexpect>4.3 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from ipython->ipython-sql) (4.9.0)
+Requirement already satisfied: wcwidth in /Users/dac/Library/Python/3.9/lib/python/site-packages (from prettytable->ipython-sql) (0.2.13)
+Requirement already satisfied: parso<0.9.0,>=0.8.3 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from jedi>=0.16->ipython->ipython-sql) (0.8.4)
+Requirement already satisfied: ptyprocess>=0.5 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from pexpect>4.3->ipython->ipython-sql) (0.7.0)
+Requirement already satisfied: executing>=1.2.0 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from stack-data->ipython->ipython-sql) (2.1.0)
+Requirement already satisfied: asttokens>=2.1.0 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from stack-data->ipython->ipython-sql) (2.4.1)
+Requirement already satisfied: pure-eval in /Users/dac/Library/Python/3.9/lib/python/site-packages (from stack-data->ipython->ipython-sql) (0.2.3)
+Tue Jun  2 18:38:08 PDT 2026
+install plotly
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: plotly in /Users/dac/Library/Python/3.9/lib/python/site-packages (5.24.1)
+Requirement already satisfied: tenacity>=6.2.0 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from plotly) (9.0.0)
+Requirement already satisfied: packaging in /Users/dac/Library/Python/3.9/lib/python/site-packages (from plotly) (24.0)
+Tue Jun  2 18:38:08 PDT 2026
+install openpyxl
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: openpyxl in /Users/dac/Library/Python/3.9/lib/python/site-packages (3.1.5)
+Requirement already satisfied: et-xmlfile in /Users/dac/Library/Python/3.9/lib/python/site-packages (from openpyxl) (1.1.0)
+Tue Jun  2 18:38:09 PDT 2026
+install folium
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: folium in /Users/dac/Library/Python/3.9/lib/python/site-packages (0.18.0)
+Requirement already satisfied: branca>=0.6.0 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from folium) (0.8.0)
+Requirement already satisfied: jinja2>=2.9 in /Library/Python/3.9/site-packages (from folium) (3.1.4)
+Requirement already satisfied: numpy in /Users/dac/Library/Python/3.9/lib/python/site-packages (from folium) (1.26.4)
+Requirement already satisfied: requests in /Users/dac/Library/Python/3.9/lib/python/site-packages (from folium) (2.31.0)
+Requirement already satisfied: xyzservices in /Users/dac/Library/Python/3.9/lib/python/site-packages (from folium) (2024.9.0)
+Requirement already satisfied: MarkupSafe>=2.0 in /Library/Python/3.9/site-packages (from jinja2>=2.9->folium) (2.1.5)
+Requirement already satisfied: charset-normalizer<4,>=2 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from requests->folium) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from requests->folium) (3.7)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from requests->folium) (2.2.1)
+Requirement already satisfied: certifi>=2017.4.17 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from requests->folium) (2024.2.2)
+Tue Jun  2 18:38:09 PDT 2026
+install geopandas
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: geopandas in /Users/dac/Library/Python/3.9/lib/python/site-packages (1.0.1)
+Requirement already satisfied: numpy>=1.22 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from geopandas) (1.26.4)
+Requirement already satisfied: pyogrio>=0.7.2 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from geopandas) (0.10.0)
+Requirement already satisfied: packaging in /Users/dac/Library/Python/3.9/lib/python/site-packages (from geopandas) (24.0)
+Requirement already satisfied: pandas>=1.4.0 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from geopandas) (2.2.1)
+Requirement already satisfied: pyproj>=3.3.0 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from geopandas) (3.6.1)
+Requirement already satisfied: shapely>=2.0.0 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from geopandas) (2.0.6)
+Requirement already satisfied: python-dateutil>=2.8.2 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from pandas>=1.4.0->geopandas) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from pandas>=1.4.0->geopandas) (2024.1)
+Requirement already satisfied: tzdata>=2022.7 in /Users/dac/Library/Python/3.9/lib/python/site-packages (from pandas>=1.4.0->geopandas) (2024.1)
+Requirement already satisfied: certifi in /Users/dac/Library/Python/3.9/lib/python/site-packages (from pyogrio>=0.7.2->geopandas) (2024.2.2)
+Requirement already satisfied: six>=1.5 in /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages (from python-dateutil>=2.8.2->pandas>=1.4.0->geopandas) (1.15.0)
+done installation
+Tue Jun  2 18:44:19 PDT 2026
+list of packages ...
+pandas
+numpy
+scipy
+matplotlib
+requests
+bs4
+seaborn
+PIL 
+pptx
+datasette
+ipython
+ipython-sql
+statsmodels
+sklearn
+scikit-learn
+yfinance
+ipython
+psycopg2
+ipython-sql
+plotly
+openpyxl
+folium
+geopandasTue Jun  2 18:44:19 PDT 2026
+install pandas
+Requirement already satisfied: pandas in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (2.2.2)
+Requirement already satisfied: numpy>=1.26.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from pandas) (1.26.4)
+Requirement already satisfied: python-dateutil>=2.8.2 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from pandas) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from pandas) (2024.1)
+Requirement already satisfied: tzdata>=2022.7 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from pandas) (2023.3)
+Requirement already satisfied: six>=1.5 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from python-dateutil>=2.8.2->pandas) (1.17.0)
+Retrieving notices: - \ | done
+Channels:
+ - defaults
+ - conda-forge
+Platform: osx-arm64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /opt/homebrew/Caskroom/miniconda/base
+
+  added / updated specs:
+    - pandas
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    ca-certificates-2026.5.14  |       hca03da5_0         108 KB
+    certifi-2026.5.20          |  py312hca03da5_0         131 KB
+    libcxx-22.1.2              |       hf894667_0         309 KB
+    openssl-3.5.6              |       ha0b305a_0         4.6 MB
+    pandas-2.3.3               |  py312h3f644e9_1        13.4 MB
+    ------------------------------------------------------------
+                                           Total:        18.5 MB
+
+The following packages will be UPDATED:
+
+  ca-certificates    conda-forge::ca-certificates-2025.1.3~ --> pkgs/main::ca-certificates-2026.5.14-hca03da5_0 
+  certifi            conda-forge/noarch::certifi-2025.1.31~ --> pkgs/main/osx-arm64::certifi-2026.5.20-py312hca03da5_0 
+  libcxx                                  14.0.6-h848a8c0_0 --> 22.1.2-hf894667_0 
+  openssl             conda-forge::openssl-3.4.1-h81ee809_0 --> pkgs/main::openssl-3.5.6-ha0b305a_0 
+  pandas                              2.2.2-py312hd77ebd4_0 --> 2.3.3-py312h3f644e9_1 
+
+
+Proceed ([y]/n)? 
+
+Downloading and Extracting Packages: ...working...pandas-2.3.3         | 13.4 MB   |            |   0% 
+openssl-3.5.6        | 4.6 MB    |            |   0% [A
+
+libcxx-22.1.2        | 309 KB    |            |   0% [A[A
+
+
+certifi-2026.5.20    | 131 KB    |            |   0% [A[A[A
+
+
+
+ca-certificates-2026 | 108 KB    |            |   0% [A[A[A[A
+openssl-3.5.6        | 4.6 MB    |            |   0% [A
+
+
+certifi-2026.5.20    | 131 KB    | #2         |  12% [A[A[Apandas-2.3.3         | 13.4 MB   |            |   0% 
+
+libcxx-22.1.2        | 309 KB    | 5          |   5% [A[A
+
+
+
+ca-certificates-2026 | 108 KB    | #4         |  15% [A[A[A[A
+
+
+certifi-2026.5.20    | 131 KB    | ########## | 100% [A[A[A
+
+
+
+ca-certificates-2026 | 108 KB    | ########## | 100% [A[A[A[A
+
+libcxx-22.1.2        | 309 KB    | ########## | 100% [A[A
+
+
+
+ca-certificates-2026 | 108 KB    | ########## | 100% [A[A[A[A
+
+
+certifi-2026.5.20    | 131 KB    | ########## | 100% [A[A[A
+
+libcxx-22.1.2        | 309 KB    | ########## | 100% [A[A
+openssl-3.5.6        | 4.6 MB    | ###4       |  35% [Apandas-2.3.3         | 13.4 MB   | 7          |   7% 
+openssl-3.5.6        | 4.6 MB    | ########## | 100% [A
+openssl-3.5.6        | 4.6 MB    | ########## | 100% [Apandas-2.3.3         | 13.4 MB   | #8         |  19% 
+openssl-3.5.6        | 4.6 MB    | ########## | 100% [Apandas-2.3.3         | 13.4 MB   | #####6     |  57% pandas-2.3.3         | 13.4 MB   | ########## | 100% pandas-2.3.3         | 13.4 MB   | ########## | 100% pandas-2.3.3         | 13.4 MB   | ########## | 100%                                                      
+                                                     [A
+
+                                                     [A[A
+
+
+                                                     [A[A[A
+
+
+
+                                                     [A[A[A[A done
+Preparing transaction: - done
+Verifying transaction: | / - done
+Executing transaction: | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / done
+Tue Jun  2 18:44:59 PDT 2026
+install numpy
+Requirement already satisfied: numpy in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (1.26.4)
+Channels:
+ - defaults
+ - conda-forge
+Platform: osx-arm64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /opt/homebrew/Caskroom/miniconda/base
+
+  added / updated specs:
+    - numpy
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    libopenblas-0.3.30         |       hf2bb037_2         4.1 MB
+    numpy-1.26.4               |  py312h901140f_1          14 KB
+    numpy-base-1.26.4          |  py312hae06d03_1         6.3 MB
+    ------------------------------------------------------------
+                                           Total:        10.4 MB
+
+The following packages will be UPDATED:
+
+  libopenblas                             0.3.21-h269037a_0 --> 0.3.30-hf2bb037_2 
+  numpy                              1.26.4-py312h7f4fdc5_0 --> 1.26.4-py312h901140f_1 
+  numpy-base                         1.26.4-py312he047099_0 --> 1.26.4-py312hae06d03_1 
+
+
+Proceed ([y]/n)? 
+
+Downloading and Extracting Packages: ...working...numpy-base-1.26.4    | 6.3 MB    |            |   0% 
+libopenblas-0.3.30   | 4.1 MB    |            |   0% [A
+
+numpy-1.26.4         | 14 KB     |            |   0% [A[A
+libopenblas-0.3.30   | 4.1 MB    |            |   0% [Anumpy-base-1.26.4    | 6.3 MB    |            |   0% 
+
+numpy-1.26.4         | 14 KB     | ########## | 100% [A[A
+
+numpy-1.26.4         | 14 KB     | ########## | 100% [A[A
+
+numpy-1.26.4         | 14 KB     | ########## | 100% [A[A
+libopenblas-0.3.30   | 4.1 MB    | #5         |  15% [Anumpy-base-1.26.4    | 6.3 MB    | #1         |  12% 
+libopenblas-0.3.30   | 4.1 MB    | ########## | 100% [A
+libopenblas-0.3.30   | 4.1 MB    | ########## | 100% [Anumpy-base-1.26.4    | 6.3 MB    | #####8     |  58% 
+libopenblas-0.3.30   | 4.1 MB    | ########## | 100% [Anumpy-base-1.26.4    | 6.3 MB    | ########## | 100% numpy-base-1.26.4    | 6.3 MB    | ########## | 100% numpy-base-1.26.4    | 6.3 MB    | ########## | 100%                                                      
+                                                     [A
+
+                                                     [A[A done
+Preparing transaction: - done
+Verifying transaction: | done
+Executing transaction: - \ | / - \ | / - Tue Jun  2 18:45:18 PDT 2026
+list of packages ...
+pandas
+numpy
+scipy
+matplotlib
+requests
+bs4
+seaborn
+PIL 
+pptx
+datasette
+ipython
+ipython-sql
+statsmodels
+sklearn
+scikit-learn
+yfinance
+ipython
+psycopg2
+ipython-sql
+plotly
+openpyxl
+folium
+geopandasTue Jun  2 18:45:18 PDT 2026
+install pandas
+Requirement already satisfied: pandas in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (2.3.3)
+Requirement already satisfied: numpy>=1.26.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from pandas) (1.26.4)
+Requirement already satisfied: python-dateutil>=2.8.2 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from pandas) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from pandas) (2024.1)
+Requirement already satisfied: tzdata>=2022.7 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from pandas) (2023.3)
+Requirement already satisfied: six>=1.5 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from python-dateutil>=2.8.2->pandas) (1.17.0)
+Channels:
+ - defaults
+ - conda-forge
+Platform: osx-arm64
+Collecting package metadata (repodata.json): ...working... Tue Jun  2 18:45:42 PDT 2026
+list of packages ...
+pandas
+numpy
+scipy
+matplotlib
+requests
+bs4
+seaborn
+PIL 
+pptx
+datasette
+ipython
+ipython-sql
+statsmodels
+sklearn
+scikit-learn
+yfinance
+ipython
+psycopg2
+ipython-sql
+plotly
+openpyxl
+folium
+geopandasTue Jun  2 18:45:42 PDT 2026
+install pandas
+Requirement already satisfied: pandas in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (2.3.3)
+Requirement already satisfied: numpy>=1.26.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from pandas) (1.26.4)
+Requirement already satisfied: python-dateutil>=2.8.2 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from pandas) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from pandas) (2024.1)
+Requirement already satisfied: tzdata>=2022.7 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from pandas) (2023.3)
+Requirement already satisfied: six>=1.5 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from python-dateutil>=2.8.2->pandas) (1.17.0)
+Channels:
+ - defaults
+Platform: osx-arm64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+# All requested packages already installed.
+
+Tue Jun  2 18:45:48 PDT 2026
+install numpy
+Requirement already satisfied: numpy in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (1.26.4)
+Channels:
+ - defaults
+ - conda-forge
+Platform: osx-arm64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /opt/homebrew/Caskroom/miniconda/base
+
+  added / updated specs:
+    - numpy
+
+
+The following packages will be UPDATED:
+
+  libopenblas                             0.3.21-h269037a_0 --> 0.3.30-hf2bb037_2 
+  numpy                              1.26.4-py312h7f4fdc5_0 --> 1.26.4-py312h901140f_1 
+  numpy-base                         1.26.4-py312he047099_0 --> 1.26.4-py312hae06d03_1 
+
+
+
+Downloading and Extracting Packages: ...working... done
+Preparing transaction: - done
+Verifying transaction: | done
+Executing transaction: - \ | / - \ | / - \ | / - \ | done
+Tue Jun  2 18:46:03 PDT 2026
+install scipy
+Requirement already satisfied: scipy in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (1.13.1)
+Requirement already satisfied: numpy<2.3,>=1.22.4 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from scipy) (1.26.4)
+Channels:
+ - defaults
+ - conda-forge
+Platform: osx-arm64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /opt/homebrew/Caskroom/miniconda/base
+
+  added / updated specs:
+    - scipy
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    cfitsio-3.470              |       h41518d1_6         743 KB
+    hdf5-1.12.1                |nompi_hd9dbc9e_104         3.2 MB  conda-forge
+    libgfortran-15.2.0         |       h09d7db9_1         130 KB
+    libgfortran5-15.2.0        |       hb654fa1_1         742 KB
+    libopenblas-0.3.31         |       h7813bb4_2         5.6 MB
+    scipy-1.17.1               |  py312h079a9ef_1        20.9 MB
+    ------------------------------------------------------------
+                                           Total:        31.2 MB
+
+The following packages will be UPDATED:
+
+  hdf5                    pkgs/main::hdf5-1.12.1-h05c076b_3 --> conda-forge::hdf5-1.12.1-nompi_hd9dbc9e_104 
+  libgfortran                      5.0.0-11_3_0_hca03da5_28 --> 15.2.0-h09d7db9_1 
+  libgfortran5                           11.3.0-h009349e_28 --> 15.2.0-hb654fa1_1 
+  libopenblas                             0.3.30-hf2bb037_2 --> 0.3.31-h7813bb4_2 
+  scipy                              1.13.1-py312ha409365_0 --> 1.17.1-py312h079a9ef_1 
+
+The following packages will be DOWNGRADED:
+
+  cfitsio                                  3.470-h7f6438f_7 --> 3.470-h41518d1_6 
+
+
+
+Downloading and Extracting Packages: ...working...scipy-1.17.1         | 20.9 MB   |            |   0% 
+libopenblas-0.3.31   | 5.6 MB    |            |   0% [A
+
+hdf5-1.12.1          | 3.2 MB    |            |   0% [A[A
+
+
+cfitsio-3.470        | 743 KB    |            |   0% [A[A[A
+
+
+
+libgfortran5-15.2.0  | 742 KB    |            |   0% [A[A[A[A
+
+
+
+
+libgfortran-15.2.0   | 130 KB    |            |   0% [A[A[A[A[A
+
+hdf5-1.12.1          | 3.2 MB    |            |   0% [A[A
+
+
+
+libgfortran5-15.2.0  | 742 KB    | 2          |   2% [A[A[A[Ascipy-1.17.1         | 20.9 MB   |            |   0% 
+libopenblas-0.3.31   | 5.6 MB    |            |   0% [A
+
+
+cfitsio-3.470        | 743 KB    | 2          |   2% [A[A[A
+
+hdf5-1.12.1          | 3.2 MB    | ####       |  40% [A[A
+
+
+
+libgfortran5-15.2.0  | 742 KB    | ########## | 100% [A[A[A[Ascipy-1.17.1         | 20.9 MB   | 3          |   4% 
+libopenblas-0.3.31   | 5.6 MB    | #3         |  13% [A
+
+
+
+libgfortran5-15.2.0  | 742 KB    | ########## | 100% [A[A[A[A
+
+
+
+libgfortran5-15.2.0  | 742 KB    | ########## | 100% [A[A[A[A
+
+
+cfitsio-3.470        | 743 KB    | ####9      |  50% [A[A[A
+
+hdf5-1.12.1          | 3.2 MB    | ########## | 100% [A[A
+
+
+
+
+libgfortran-15.2.0   | 130 KB    | #2         |  12% [A[A[A[A[A
+
+
+
+
+libgfortran-15.2.0   | 130 KB    | ########## | 100% [A[A[A[A[A
+
+
+
+
+libgfortran-15.2.0   | 130 KB    | ########## | 100% [A[A[A[A[A
+
+
+cfitsio-3.470        | 743 KB    | ########## | 100% [A[A[A
+
+
+cfitsio-3.470        | 743 KB    | ########## | 100% [A[A[A
+libopenblas-0.3.31   | 5.6 MB    | #####4     |  54% [Ascipy-1.17.1         | 20.9 MB   | #1         |  12% 
+libopenblas-0.3.31   | 5.6 MB    | ########## | 100% [Ascipy-1.17.1         | 20.9 MB   | ##6        |  27% 
+libopenblas-0.3.31   | 5.6 MB    | ########## | 100% [A
+libopenblas-0.3.31   | 5.6 MB    | ########## | 100% [Ascipy-1.17.1         | 20.9 MB   | ####4      |  45% 
+
+hdf5-1.12.1          | 3.2 MB    | ########## | 100% [A[A
+
+hdf5-1.12.1          | 3.2 MB    | ########## | 100% [A[Ascipy-1.17.1         | 20.9 MB   | ######3    |  64% scipy-1.17.1         | 20.9 MB   | ########4  |  84% scipy-1.17.1         | 20.9 MB   | ########## | 100% scipy-1.17.1         | 20.9 MB   | ########## | 100%                                                      
+                                                     [A
+
+                                                     [A[A
+
+
+                                                     [A[A[A
+
+
+
+                                                     [A[A[A[A
+
+
+
+
+                                                     [A[A[A[A[A done
+Preparing transaction: - done
+Verifying transaction: | / - done
+Executing transaction: | / - \ | / - \ | / - \ | / - \ | done
+Tue Jun  2 18:46:20 PDT 2026
+install matplotlib
+Requirement already satisfied: matplotlib in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (3.9.2)
+Requirement already satisfied: contourpy>=1.0.1 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from matplotlib) (1.2.0)
+Requirement already satisfied: cycler>=0.10 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from matplotlib) (0.11.0)
+Requirement already satisfied: fonttools>=4.22.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from matplotlib) (4.51.0)
+Requirement already satisfied: kiwisolver>=1.3.1 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from matplotlib) (1.4.4)
+Requirement already satisfied: numpy>=1.23 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from matplotlib) (1.26.4)
+Requirement already satisfied: packaging>=20.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from matplotlib) (26.2)
+Requirement already satisfied: pillow>=8 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from matplotlib) (10.4.0)
+Requirement already satisfied: pyparsing>=2.3.1 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from matplotlib) (3.1.2)
+Requirement already satisfied: python-dateutil>=2.7 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from matplotlib) (2.9.0.post0)
+Requirement already satisfied: six>=1.5 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from python-dateutil>=2.7->matplotlib) (1.17.0)
+Channels:
+ - defaults
+ - conda-forge
+Platform: osx-arm64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /opt/homebrew/Caskroom/miniconda/base
+
+  added / updated specs:
+    - matplotlib
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    freetype-2.14.1            |       h7cdc921_0         589 KB
+    libpng-1.6.54              |       h5c318fc_0         217 KB
+    matplotlib-3.10.9          |  py312hca03da5_0           7 KB
+    matplotlib-base-3.10.9     |  py312haa222d5_0         7.8 MB
+    ------------------------------------------------------------
+                                           Total:         8.6 MB
+
+The following NEW packages will be INSTALLED:
+
+  matplotlib         pkgs/main/osx-arm64::matplotlib-3.10.9-py312hca03da5_0 
+
+The following packages will be UPDATED:
+
+  freetype                                2.12.1-h1192e45_0 --> 2.14.1-h7cdc921_0 
+  libpng                                  1.6.39-h80987f9_0 --> 1.6.54-h5c318fc_0 
+  matplotlib-base                     3.9.2-py312h2df2da3_0 --> 3.10.9-py312haa222d5_0 
+
+
+
+Downloading and Extracting Packages: ...working...matplotlib-base-3.10 | 7.8 MB    |            |   0% 
+freetype-2.14.1      | 589 KB    |            |   0% [A
+
+libpng-1.6.54        | 217 KB    |            |   0% [A[A
+
+
+matplotlib-3.10.9    | 7 KB      |            |   0% [A[A[A
+
+
+matplotlib-3.10.9    | 7 KB      | ########## | 100% [A[A[A
+
+
+matplotlib-3.10.9    | 7 KB      | ########## | 100% [A[A[A
+freetype-2.14.1      | 589 KB    | 2          |   3% [A
+
+libpng-1.6.54        | 217 KB    | 7          |   7% [A[A
+
+
+matplotlib-3.10.9    | 7 KB      | ########## | 100% [A[A[Amatplotlib-base-3.10 | 7.8 MB    |            |   0% 
+
+libpng-1.6.54        | 217 KB    | ########## | 100% [A[A
+
+libpng-1.6.54        | 217 KB    | ########## | 100% [A[A
+freetype-2.14.1      | 589 KB    | ########## | 100% [A
+freetype-2.14.1      | 589 KB    | ########## | 100% [Amatplotlib-base-3.10 | 7.8 MB    | ##         |  21% matplotlib-base-3.10 | 7.8 MB    | ########3  |  83% matplotlib-base-3.10 | 7.8 MB    | ########## | 100% matplotlib-base-3.10 | 7.8 MB    | ########## | 100%                                                      
+                                                     [A
+
+                                                     [A[A
+
+
+                                                     [A[A[A done
+Preparing transaction: - done
+Verifying transaction: | done
+Executing transaction: - \ | / - \ | done
+Tue Jun  2 18:46:33 PDT 2026
+install requests
+Requirement already satisfied: requests in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (2.32.3)
+Requirement already satisfied: charset-normalizer<4,>=2 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from requests) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from requests) (3.7)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from requests) (2.2.3)
+Requirement already satisfied: certifi>=2017.4.17 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from requests) (2026.5.20)
+Channels:
+ - defaults
+ - conda-forge
+Platform: osx-arm64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /opt/homebrew/Caskroom/miniconda/base
+
+  added / updated specs:
+    - requests
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    requests-2.34.2            |  py312hca03da5_0         182 KB
+    ------------------------------------------------------------
+                                           Total:         182 KB
+
+The following packages will be UPDATED:
+
+  requests                           2.32.3-py312hca03da5_0 --> 2.34.2-py312hca03da5_0 
+
+
+
+Downloading and Extracting Packages: ...working...requests-2.34.2      | 182 KB    |            |   0% requests-2.34.2      | 182 KB    | #7         |  18% requests-2.34.2      | 182 KB    | ########## | 100% requests-2.34.2      | 182 KB    | ########## | 100%                                                       done
+Preparing transaction: - done
+Verifying transaction: | done
+Executing transaction: - done
+Tue Jun  2 18:46:47 PDT 2026
+install bs4
+Requirement already satisfied: bs4 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (0.0.2)
+Requirement already satisfied: beautifulsoup4 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from bs4) (4.12.3)
+Requirement already satisfied: soupsieve>1.2 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from beautifulsoup4->bs4) (2.5)
+Channels:
+ - defaults
+ - conda-forge
+Platform: osx-arm64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /opt/homebrew/Caskroom/miniconda/base
+
+  added / updated specs:
+    - bs4
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    beautifulsoup4-4.14.3      |  py312hca03da5_0         245 KB
+    bs4-4.14.3                 |  py312hd3eb1b0_0           6 KB
+    ------------------------------------------------------------
+                                           Total:         251 KB
+
+The following packages will be UPDATED:
+
+  beautifulsoup4                     4.12.3-py312hca03da5_0 --> 4.14.3-py312hca03da5_0 
+  bs4                                 4.12.3-py39hd3eb1b0_0 --> 4.14.3-py312hd3eb1b0_0 
+
+
+
+Downloading and Extracting Packages: ...working...beautifulsoup4-4.14. | 245 KB    |            |   0% 
+bs4-4.14.3           | 6 KB      |            |   0% [Abeautifulsoup4-4.14. | 245 KB    | 6          |   7% beautifulsoup4-4.14. | 245 KB    | ########## | 100% 
+bs4-4.14.3           | 6 KB      | ########## | 100% [A
+bs4-4.14.3           | 6 KB      | ########## | 100% [A
+bs4-4.14.3           | 6 KB      | ########## | 100% [Abeautifulsoup4-4.14. | 245 KB    | ########## | 100%                                                      
+                                                     [A done
+Preparing transaction: - done
+Verifying transaction: | done
+Executing transaction: - done
+Tue Jun  2 18:47:00 PDT 2026
+install seaborn
+Requirement already satisfied: seaborn in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (0.13.2)
+Requirement already satisfied: numpy!=1.24.0,>=1.20 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from seaborn) (1.26.4)
+Requirement already satisfied: pandas>=1.2 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from seaborn) (2.3.3)
+Requirement already satisfied: matplotlib!=3.6.1,>=3.4 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from seaborn) (3.10.9)
+Requirement already satisfied: contourpy>=1.0.1 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (1.2.0)
+Requirement already satisfied: cycler>=0.10 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (0.11.0)
+Requirement already satisfied: fonttools>=4.22.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (4.51.0)
+Requirement already satisfied: kiwisolver>=1.3.1 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (1.4.4)
+Requirement already satisfied: packaging>=20.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (26.2)
+Requirement already satisfied: pillow>=8 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (10.4.0)
+Requirement already satisfied: pyparsing>=3 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (3.1.2)
+Requirement already satisfied: python-dateutil>=2.7 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from pandas>=1.2->seaborn) (2024.1)
+Requirement already satisfied: tzdata>=2022.7 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from pandas>=1.2->seaborn) (2023.3)
+Requirement already satisfied: six>=1.5 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from python-dateutil>=2.7->matplotlib!=3.6.1,>=3.4->seaborn) (1.17.0)
+Channels:
+ - defaults
+ - conda-forge
+Platform: osx-arm64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /opt/homebrew/Caskroom/miniconda/base
+
+  added / updated specs:
+    - seaborn
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    seaborn-0.13.2             |  py312hca03da5_3         717 KB
+    ------------------------------------------------------------
+                                           Total:         717 KB
+
+The following packages will be UPDATED:
+
+  seaborn                            0.13.2-py312hca03da5_0 --> 0.13.2-py312hca03da5_3 
+
+
+
+Downloading and Extracting Packages: ...working...seaborn-0.13.2       | 717 KB    |            |   0% seaborn-0.13.2       | 717 KB    | 2          |   2% seaborn-0.13.2       | 717 KB    | ########## | 100% seaborn-0.13.2       | 717 KB    | ########## | 100% seaborn-0.13.2       | 717 KB    | ########## | 100%                                                       done
+Preparing transaction: - done
+Verifying transaction: | done
+Executing transaction: - done
+Tue Jun  2 18:47:13 PDT 2026
+install PIL
+Channels:
+ - defaults
+ - conda-forge
+Platform: osx-arm64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... failed
+Tue Jun  2 18:47:31 PDT 2026
+install pptx
+Channels:
+ - defaults
+ - conda-forge
+Platform: osx-arm64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... failed
+Tue Jun  2 18:47:49 PDT 2026
+install datasette
+Collecting datasette
+  Downloading datasette-0.65.2-py3-none-any.whl.metadata (8.1 kB)
+Collecting asgiref>=3.2.10 (from datasette)
+  Downloading asgiref-3.11.1-py3-none-any.whl.metadata (9.3 kB)
+Requirement already satisfied: click>=7.1.1 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from datasette) (8.1.7)
+Collecting click-default-group>=1.2.3 (from datasette)
+  Using cached click_default_group-1.2.4-py2.py3-none-any.whl.metadata (2.8 kB)
+Requirement already satisfied: Jinja2>=2.10.3 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from datasette) (3.1.4)
+Collecting hupper>=1.9 (from datasette)
+  Using cached hupper-1.12.1-py3-none-any.whl.metadata (3.7 kB)
+Requirement already satisfied: httpx>=0.20 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from datasette) (0.27.0)
+Requirement already satisfied: pluggy>=1.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from datasette) (1.0.0)
+Collecting uvicorn>=0.11 (from datasette)
+  Downloading uvicorn-0.48.0-py3-none-any.whl.metadata (6.7 kB)
+Collecting aiofiles>=0.4 (from datasette)
+  Downloading aiofiles-25.1.0-py3-none-any.whl.metadata (6.3 kB)
+Collecting janus>=0.6.2 (from datasette)
+  Downloading janus-2.0.0-py3-none-any.whl.metadata (5.3 kB)
+Collecting asgi-csrf>=0.9 (from datasette)
+  Downloading asgi_csrf-0.11-py3-none-any.whl.metadata (8.4 kB)
+Requirement already satisfied: PyYAML>=5.3 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from datasette) (6.0.1)
+Collecting mergedeep>=1.1.1 (from datasette)
+  Using cached mergedeep-1.3.4-py3-none-any.whl.metadata (4.3 kB)
+Requirement already satisfied: itsdangerous>=1.1 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from datasette) (2.2.0)
+Requirement already satisfied: setuptools in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from datasette) (72.1.0)
+Requirement already satisfied: pip in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from datasette) (24.2)
+Requirement already satisfied: platformdirs>=2.1.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from datasette) (4.10.0)
+Requirement already satisfied: typing_extensions>=4.0.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from datasette) (4.11.0)
+Collecting flexcache>=0.3 (from datasette)
+  Using cached flexcache-0.3-py3-none-any.whl.metadata (7.0 kB)
+Collecting flexparser>=0.3 (from datasette)
+  Downloading flexparser-0.4-py3-none-any.whl.metadata (18 kB)
+Collecting python-multipart>=0.0.13 (from asgi-csrf>=0.9->datasette)
+  Downloading python_multipart-0.0.30-py3-none-any.whl.metadata (2.1 kB)
+Requirement already satisfied: anyio in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from httpx>=0.20->datasette) (4.2.0)
+Requirement already satisfied: certifi in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from httpx>=0.20->datasette) (2026.5.20)
+Requirement already satisfied: httpcore==1.* in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from httpx>=0.20->datasette) (1.0.2)
+Requirement already satisfied: idna in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from httpx>=0.20->datasette) (3.7)
+Requirement already satisfied: sniffio in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from httpx>=0.20->datasette) (1.3.0)
+Requirement already satisfied: h11<0.15,>=0.13 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from httpcore==1.*->httpx>=0.20->datasette) (0.14.0)
+Requirement already satisfied: MarkupSafe>=2.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from Jinja2>=2.10.3->datasette) (2.1.3)
+Downloading datasette-0.65.2-py3-none-any.whl (397 kB)
+Downloading aiofiles-25.1.0-py3-none-any.whl (14 kB)
+Downloading asgi_csrf-0.11-py3-none-any.whl (11 kB)
+Downloading asgiref-3.11.1-py3-none-any.whl (24 kB)
+Using cached click_default_group-1.2.4-py2.py3-none-any.whl (4.1 kB)
+Using cached flexcache-0.3-py3-none-any.whl (13 kB)
+Downloading flexparser-0.4-py3-none-any.whl (27 kB)
+Using cached hupper-1.12.1-py3-none-any.whl (22 kB)
+Downloading janus-2.0.0-py3-none-any.whl (12 kB)
+Using cached mergedeep-1.3.4-py3-none-any.whl (6.4 kB)
+Downloading uvicorn-0.48.0-py3-none-any.whl (71 kB)
+Downloading python_multipart-0.0.30-py3-none-any.whl (29 kB)
+Installing collected packages: uvicorn, python-multipart, mergedeep, janus, hupper, flexparser, flexcache, click-default-group, asgiref, aiofiles, asgi-csrf, datasette
+Successfully installed aiofiles-25.1.0 asgi-csrf-0.11 asgiref-3.11.1 click-default-group-1.2.4 datasette-0.65.2 flexcache-0.3 flexparser-0.4 hupper-1.12.1 janus-2.0.0 mergedeep-1.3.4 python-multipart-0.0.30 uvicorn-0.48.0
+Channels:
+ - defaults
+ - conda-forge
+Platform: osx-arm64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /opt/homebrew/Caskroom/miniconda/base
+
+  added / updated specs:
+    - datasette
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    aiofiles-25.1.0            |  py312hca03da5_0          34 KB
+    asgi-csrf-0.11             |     pyhff2d567_0          20 KB  conda-forge
+    asgiref-3.11.1             |  py312hca03da5_0          65 KB
+    click-default-group-1.2.4  |     pyhd8ed1ab_1          10 KB  conda-forge
+    datasette-0.65.2           |     pyhd8ed1ab_0         294 KB  conda-forge
+    flexcache-0.3              |     pyhd8ed1ab_1          16 KB  conda-forge
+    flexparser-0.4             |     pyhd8ed1ab_1          28 KB  conda-forge
+    hupper-1.12.1              |     pyhd8ed1ab_1          25 KB  conda-forge
+    janus-2.0.0                |     pyhd8ed1ab_0          17 KB  conda-forge
+    mergedeep-1.3.4            |     pyhd8ed1ab_1          11 KB  conda-forge
+    python-multipart-0.0.29    |  py312hca03da5_0          68 KB
+    uvicorn-0.40.0             |  py312hca03da5_0         137 KB
+    ------------------------------------------------------------
+                                           Total:         726 KB
+
+The following NEW packages will be INSTALLED:
+
+  aiofiles           pkgs/main/osx-arm64::aiofiles-25.1.0-py312hca03da5_0 
+  asgi-csrf          conda-forge/noarch::asgi-csrf-0.11-pyhff2d567_0 
+  asgiref            pkgs/main/osx-arm64::asgiref-3.11.1-py312hca03da5_0 
+  click-default-gro~ conda-forge/noarch::click-default-group-1.2.4-pyhd8ed1ab_1 
+  datasette          conda-forge/noarch::datasette-0.65.2-pyhd8ed1ab_0 
+  flexcache          conda-forge/noarch::flexcache-0.3-pyhd8ed1ab_1 
+  flexparser         conda-forge/noarch::flexparser-0.4-pyhd8ed1ab_1 
+  hupper             conda-forge/noarch::hupper-1.12.1-pyhd8ed1ab_1 
+  janus              conda-forge/noarch::janus-2.0.0-pyhd8ed1ab_0 
+  mergedeep          conda-forge/noarch::mergedeep-1.3.4-pyhd8ed1ab_1 
+  python-multipart   pkgs/main/osx-arm64::python-multipart-0.0.29-py312hca03da5_0 
+  uvicorn            pkgs/main/osx-arm64::uvicorn-0.40.0-py312hca03da5_0 
+
+
+
+Downloading and Extracting Packages: ...working...datasette-0.65.2     | 294 KB    |            |   0% 
+uvicorn-0.40.0       | 137 KB    |            |   0% [A
+
+python-multipart-0.0 | 68 KB     |            |   0% [A[A
+
+
+asgiref-3.11.1       | 65 KB     |            |   0% [A[A[A
+
+
+
+aiofiles-25.1.0      | 34 KB     |            |   0% [A[A[A[A
+
+
+
+
+flexparser-0.4       | 28 KB     |            |   0% [A[A[A[A[A
+
+
+
+
+
+hupper-1.12.1        | 25 KB     |            |   0% [A[A[A[A[A[A
+
+
+
+
+
+
+asgi-csrf-0.11       | 20 KB     |            |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+janus-2.0.0          | 17 KB     |            |   0% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+flexcache-0.3        | 16 KB     |            |   0% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+mergedeep-1.3.4      | 11 KB     |            |   0% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+click-default-group- | 10 KB     |            |   0% [A[A[A[A[A[A[A[A[A[A[A
+
+python-multipart-0.0 | 68 KB     | ##3        |  23% [A[A
+uvicorn-0.40.0       | 137 KB    | #1         |  12% [A
+
+python-multipart-0.0 | 68 KB     | ########## | 100% [A[A
+uvicorn-0.40.0       | 137 KB    | ########## | 100% [A
+
+python-multipart-0.0 | 68 KB     | ########## | 100% [A[A
+uvicorn-0.40.0       | 137 KB    | ########## | 100% [A
+
+
+
+aiofiles-25.1.0      | 34 KB     | ####6      |  47% [A[A[A[Adatasette-0.65.2     | 294 KB    | 5          |   5% 
+
+
+
+aiofiles-25.1.0      | 34 KB     | ########## | 100% [A[A[A[A
+
+
+
+aiofiles-25.1.0      | 34 KB     | ########## | 100% [A[A[A[A
+
+
+
+
+flexparser-0.4       | 28 KB     | #####7     |  57% [A[A[A[A[A
+
+
+
+
+flexparser-0.4       | 28 KB     | ########## | 100% [A[A[A[A[A
+
+
+
+
+flexparser-0.4       | 28 KB     | ########## | 100% [A[A[A[A[Adatasette-0.65.2     | 294 KB    | ########## | 100% 
+
+
+
+
+
+hupper-1.12.1        | 25 KB     | ######5    |  65% [A[A[A[A[A[A
+
+
+
+
+
+
+
+janus-2.0.0          | 17 KB     | #########3 |  93% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+janus-2.0.0          | 17 KB     | ########## | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+hupper-1.12.1        | 25 KB     | ########## | 100% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+flexcache-0.3        | 16 KB     | #########8 |  98% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+janus-2.0.0          | 17 KB     | ########## | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+flexcache-0.3        | 16 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A
+
+
+asgiref-3.11.1       | 65 KB     | ##4        |  25% [A[A[Adatasette-0.65.2     | 294 KB    | ########## | 100% datasette-0.65.2     | 294 KB    | ########## | 100% 
+
+
+
+
+
+hupper-1.12.1        | 25 KB     | ########## | 100% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+flexcache-0.3        | 16 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+mergedeep-1.3.4      | 11 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+asgiref-3.11.1       | 65 KB     | ########## | 100% [A[A[A
+
+
+
+
+
+
+
+
+
+mergedeep-1.3.4      | 11 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+click-default-group- | 10 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+click-default-group- | 10 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+mergedeep-1.3.4      | 11 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+click-default-group- | 10 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+asgi-csrf-0.11       | 20 KB     | #######8   |  79% [A[A[A[A[A[A[A
+
+
+asgiref-3.11.1       | 65 KB     | ########## | 100% [A[A[A
+
+
+
+
+
+
+asgi-csrf-0.11       | 20 KB     | ########## | 100% [A[A[A[A[A[A[A
+
+
+
+
+
+
+asgi-csrf-0.11       | 20 KB     | ########## | 100% [A[A[A[A[A[A[A                                                     
+                                                     [A
+
+                                                     [A[A
+
+
+                                                     [A[A[A
+
+
+
+                                                     [A[A[A[A
+
+
+
+
+                                                     [A[A[A[A[A
+
+
+
+
+
+                                                     [A[A[A[A[A[A
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A done
+Preparing transaction: - done
+Verifying transaction: | / - \ done
+Executing transaction: / - \ | / - \ | / - done
+Tue Jun  2 18:48:06 PDT 2026
+install ipython
+Requirement already satisfied: ipython in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (9.14.0)
+Requirement already satisfied: decorator>=5.1.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython) (5.3.1)
+Requirement already satisfied: ipython-pygments-lexers>=1.0.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython) (1.1.1)
+Requirement already satisfied: jedi>=0.18.2 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython) (0.20.0)
+Requirement already satisfied: matplotlib-inline>=0.1.6 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython) (0.2.2)
+Requirement already satisfied: pexpect>4.6 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython) (4.9.0)
+Requirement already satisfied: prompt_toolkit<3.1.0,>=3.0.41 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython) (3.0.52)
+Requirement already satisfied: psutil>=7 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython) (7.2.2)
+Requirement already satisfied: pygments>=2.14.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython) (2.20.0)
+Requirement already satisfied: stack_data>=0.6.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython) (0.6.3)
+Requirement already satisfied: traitlets>=5.13.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython) (5.15.0)
+Requirement already satisfied: parso<0.9.0,>=0.8.6 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from jedi>=0.18.2->ipython) (0.8.7)
+Requirement already satisfied: ptyprocess>=0.5 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from pexpect>4.6->ipython) (0.7.0)
+Requirement already satisfied: wcwidth in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from prompt_toolkit<3.1.0,>=3.0.41->ipython) (0.7.0)
+Requirement already satisfied: executing>=1.2.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from stack_data>=0.6.0->ipython) (2.2.1)
+Requirement already satisfied: asttokens>=2.1.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from stack_data>=0.6.0->ipython) (3.0.1)
+Requirement already satisfied: pure-eval in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from stack_data>=0.6.0->ipython) (0.2.3)
+Channels:
+ - defaults
+ - conda-forge
+Platform: osx-arm64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /opt/homebrew/Caskroom/miniconda/base
+
+  added / updated specs:
+    - ipython
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    ipython-9.14.0             |  py312hca03da5_0         1.2 MB
+    ipython_pygments_lexers-1.1.1|  py312hca03da5_0          19 KB
+    psutil-7.0.0               |  py312haa24f5a_1         539 KB
+    stack_data-0.6.3           |     pyhd8ed1ab_1          26 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:         1.8 MB
+
+The following NEW packages will be INSTALLED:
+
+  ipython_pygments_~ pkgs/main/osx-arm64::ipython_pygments_lexers-1.1.1-py312hca03da5_0 
+
+The following packages will be UPDATED:
+
+  ipython                            8.27.0-py312hca03da5_0 --> 9.14.0-py312hca03da5_0 
+  psutil                              5.9.0-py312h80987f9_0 --> 7.0.0-py312haa24f5a_1 
+  stack_data         pkgs/main::stack_data-0.2.0-pyhd3eb1b~ --> conda-forge::stack_data-0.6.3-pyhd8ed1ab_1 
+
+
+
+Downloading and Extracting Packages: ...working...ipython-9.14.0       | 1.2 MB    |            |   0% 
+psutil-7.0.0         | 539 KB    |            |   0% [A
+
+stack_data-0.6.3     | 26 KB     |            |   0% [A[A
+
+
+ipython_pygments_lex | 19 KB     |            |   0% [A[A[A
+
+stack_data-0.6.3     | 26 KB     | ######     |  61% [A[A
+
+stack_data-0.6.3     | 26 KB     | ########## | 100% [A[A
+
+stack_data-0.6.3     | 26 KB     | ########## | 100% [A[A
+psutil-7.0.0         | 539 KB    | 2          |   3% [A
+
+
+ipython_pygments_lex | 19 KB     | ########5  |  86% [A[A[Aipython-9.14.0       | 1.2 MB    | 1          |   1% 
+
+
+ipython_pygments_lex | 19 KB     | ########## | 100% [A[A[A
+
+
+ipython_pygments_lex | 19 KB     | ########## | 100% [A[A[Aipython-9.14.0       | 1.2 MB    | ###6       |  37% 
+psutil-7.0.0         | 539 KB    | #######7   |  77% [A
+psutil-7.0.0         | 539 KB    | ########## | 100% [A
+psutil-7.0.0         | 539 KB    | ########## | 100% [Aipython-9.14.0       | 1.2 MB    | ########## | 100% ipython-9.14.0       | 1.2 MB    | ########## | 100% ipython-9.14.0       | 1.2 MB    | ########## | 100%                                                      
+                                                     [A
+
+                                                     [A[A
+
+
+                                                     [A[A[A done
+Preparing transaction: - done
+Verifying transaction: | done
+Executing transaction: - \ | / - \ | / - \ | / - \ | done
+Tue Jun  2 18:48:17 PDT 2026
+install ipython-sql
+Requirement already satisfied: ipython-sql in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (0.3.9)
+Requirement already satisfied: prettytable in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython-sql) (3.5.0)
+Requirement already satisfied: ipython>=1.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython-sql) (9.14.0)
+Requirement already satisfied: sqlalchemy>=0.6.7 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython-sql) (1.3.9)
+Requirement already satisfied: sqlparse in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython-sql) (0.4.4)
+Requirement already satisfied: six in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython-sql) (1.17.0)
+Requirement already satisfied: ipython-genutils>=0.1.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython-sql) (0.2.0)
+Requirement already satisfied: decorator>=5.1.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython>=1.0->ipython-sql) (5.3.1)
+Requirement already satisfied: ipython-pygments-lexers>=1.0.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython>=1.0->ipython-sql) (1.1.1)
+Requirement already satisfied: jedi>=0.18.2 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython>=1.0->ipython-sql) (0.20.0)
+Requirement already satisfied: matplotlib-inline>=0.1.6 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython>=1.0->ipython-sql) (0.2.2)
+Requirement already satisfied: pexpect>4.6 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython>=1.0->ipython-sql) (4.9.0)
+Requirement already satisfied: prompt_toolkit<3.1.0,>=3.0.41 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython>=1.0->ipython-sql) (3.0.52)
+Requirement already satisfied: psutil>=7 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython>=1.0->ipython-sql) (7.0.0)
+Requirement already satisfied: pygments>=2.14.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython>=1.0->ipython-sql) (2.20.0)
+Requirement already satisfied: stack_data>=0.6.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython>=1.0->ipython-sql) (0.6.3)
+Requirement already satisfied: traitlets>=5.13.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython>=1.0->ipython-sql) (5.15.0)
+Requirement already satisfied: wcwidth in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from prettytable->ipython-sql) (0.7.0)
+Requirement already satisfied: parso<0.9.0,>=0.8.6 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from jedi>=0.18.2->ipython>=1.0->ipython-sql) (0.8.7)
+Requirement already satisfied: ptyprocess>=0.5 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from pexpect>4.6->ipython>=1.0->ipython-sql) (0.7.0)
+Requirement already satisfied: executing>=1.2.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from stack_data>=0.6.0->ipython>=1.0->ipython-sql) (2.2.1)
+Requirement already satisfied: asttokens>=2.1.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from stack_data>=0.6.0->ipython>=1.0->ipython-sql) (3.0.1)
+Requirement already satisfied: pure_eval in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from stack_data>=0.6.0->ipython>=1.0->ipython-sql) (0.2.3)
+Channels:
+ - defaults
+ - conda-forge
+Platform: osx-arm64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /opt/homebrew/Caskroom/miniconda/base
+
+  added / updated specs:
+    - ipython-sql
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    sqlalchemy-2.0.48          |  py312h7da7da4_0         5.9 MB
+    ------------------------------------------------------------
+                                           Total:         5.9 MB
+
+The following NEW packages will be INSTALLED:
+
+  sqlalchemy         pkgs/main/osx-arm64::sqlalchemy-2.0.48-py312h7da7da4_0 
+
+
+
+Downloading and Extracting Packages: ...working...sqlalchemy-2.0.48    | 5.9 MB    |            |   0% sqlalchemy-2.0.48    | 5.9 MB    |            |   0% sqlalchemy-2.0.48    | 5.9 MB    | ##1        |  22% sqlalchemy-2.0.48    | 5.9 MB    | ########7  |  87% sqlalchemy-2.0.48    | 5.9 MB    | ########## | 100% sqlalchemy-2.0.48    | 5.9 MB    | ########## | 100%                                                       done
+Preparing transaction: - done
+Verifying transaction: | / - \ | done
+Executing transaction: - \ done
+Tue Jun  2 18:48:28 PDT 2026
+install statsmodels
+Requirement already satisfied: statsmodels in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (0.14.2)
+Requirement already satisfied: numpy>=1.22.3 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from statsmodels) (1.26.4)
+Requirement already satisfied: scipy!=1.9.2,>=1.8 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from statsmodels) (1.17.1)
+Requirement already satisfied: pandas!=2.1.0,>=1.4 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from statsmodels) (2.3.3)
+Requirement already satisfied: patsy>=0.5.6 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from statsmodels) (0.5.6)
+Requirement already satisfied: packaging>=21.3 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from statsmodels) (26.2)
+Requirement already satisfied: python-dateutil>=2.8.2 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from pandas!=2.1.0,>=1.4->statsmodels) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from pandas!=2.1.0,>=1.4->statsmodels) (2024.1)
+Requirement already satisfied: tzdata>=2022.7 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from pandas!=2.1.0,>=1.4->statsmodels) (2023.3)
+Requirement already satisfied: six in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from patsy>=0.5.6->statsmodels) (1.17.0)
+Channels:
+ - defaults
+ - conda-forge
+Platform: osx-arm64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /opt/homebrew/Caskroom/miniconda/base
+
+  added / updated specs:
+    - statsmodels
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    statsmodels-0.14.6         |  py312haa24f5a_0        11.2 MB
+    ------------------------------------------------------------
+                                           Total:        11.2 MB
+
+The following packages will be UPDATED:
+
+  statsmodels                        0.14.2-py312ha86b861_0 --> 0.14.6-py312haa24f5a_0 
+
+
+
+Downloading and Extracting Packages: ...working...statsmodels-0.14.6   | 11.2 MB   |            |   0% statsmodels-0.14.6   | 11.2 MB   |            |   0% statsmodels-0.14.6   | 11.2 MB   | #          |  10% statsmodels-0.14.6   | 11.2 MB   | #8         |  19% statsmodels-0.14.6   | 11.2 MB   | #########3 |  93% statsmodels-0.14.6   | 11.2 MB   | ########## | 100% statsmodels-0.14.6   | 11.2 MB   | ########## | 100%                                                       done
+Preparing transaction: - \ done
+Verifying transaction: / done
+Executing transaction: \ | / - \ | / - \ | / - \ | / - \ | / - \ done
+Tue Jun  2 18:48:41 PDT 2026
+install sklearn
+Collecting sklearn
+  Using cached sklearn-0.0.post12.tar.gz (2.6 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'error'
+Channels:
+ - defaults
+ - conda-forge
+Platform: osx-arm64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... failed
+Tue Jun  2 18:48:50 PDT 2026
+install scikit-learn
+Requirement already satisfied: scikit-learn in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (1.5.1)
+Requirement already satisfied: numpy>=1.19.5 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from scikit-learn) (1.26.4)
+Requirement already satisfied: scipy>=1.6.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from scikit-learn) (1.17.1)
+Requirement already satisfied: joblib>=1.2.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from scikit-learn) (1.4.2)
+Requirement already satisfied: threadpoolctl>=3.1.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from scikit-learn) (3.5.0)
+Channels:
+ - defaults
+ - conda-forge
+Platform: osx-arm64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /opt/homebrew/Caskroom/miniconda/base
+
+  added / updated specs:
+    - scikit-learn
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    llvm-openmp-22.1.2         |       h4714345_1         295 KB
+    scikit-learn-1.8.0         |  py312h3f644e9_1         8.5 MB
+    ------------------------------------------------------------
+                                           Total:         8.8 MB
+
+The following packages will be UPDATED:
+
+  llvm-openmp                             14.0.6-hc6e5704_0 --> 22.1.2-h4714345_1 
+  scikit-learn                        1.5.1-py312hd77ebd4_0 --> 1.8.0-py312h3f644e9_1 
+
+
+
+Downloading and Extracting Packages: ...working...scikit-learn-1.8.0   | 8.5 MB    |            |   0% 
+llvm-openmp-22.1.2   | 295 KB    |            |   0% [Ascikit-learn-1.8.0   | 8.5 MB    |            |   0% 
+llvm-openmp-22.1.2   | 295 KB    | 5          |   5% [A
+llvm-openmp-22.1.2   | 295 KB    | ########## | 100% [A
+llvm-openmp-22.1.2   | 295 KB    | ########## | 100% [Ascikit-learn-1.8.0   | 8.5 MB    | #6         |  16% scikit-learn-1.8.0   | 8.5 MB    | #######4   |  74% scikit-learn-1.8.0   | 8.5 MB    | ########## | 100% scikit-learn-1.8.0   | 8.5 MB    | ########## | 100%                                                      
+                                                     [A done
+Preparing transaction: - done
+Verifying transaction: | done
+Executing transaction: - \ | / - \ | / - \ | done
+Tue Jun  2 18:49:00 PDT 2026
+install yfinance
+Requirement already satisfied: yfinance in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (0.2.44)
+Requirement already satisfied: pandas>=1.3.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from yfinance) (2.3.3)
+Requirement already satisfied: numpy>=1.16.5 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from yfinance) (1.26.4)
+Requirement already satisfied: requests>=2.31 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from yfinance) (2.34.2)
+Requirement already satisfied: multitasking>=0.0.7 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from yfinance) (0.0.11)
+Requirement already satisfied: lxml>=4.9.1 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from yfinance) (5.2.1)
+Requirement already satisfied: platformdirs>=2.0.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from yfinance) (4.10.0)
+Requirement already satisfied: pytz>=2022.5 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from yfinance) (2024.1)
+Requirement already satisfied: frozendict>=2.3.4 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from yfinance) (2.4.2)
+Requirement already satisfied: peewee>=3.16.2 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from yfinance) (3.17.6)
+Requirement already satisfied: beautifulsoup4>=4.11.1 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from yfinance) (4.14.3)
+Requirement already satisfied: html5lib>=1.1 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from yfinance) (1.1)
+Requirement already satisfied: soupsieve>=1.6.1 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from beautifulsoup4>=4.11.1->yfinance) (2.5)
+Requirement already satisfied: typing-extensions>=4.0.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from beautifulsoup4>=4.11.1->yfinance) (4.11.0)
+Requirement already satisfied: six>=1.9 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from html5lib>=1.1->yfinance) (1.17.0)
+Requirement already satisfied: webencodings in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from html5lib>=1.1->yfinance) (0.5.1)
+Requirement already satisfied: python-dateutil>=2.8.2 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from pandas>=1.3.0->yfinance) (2.9.0.post0)
+Requirement already satisfied: tzdata>=2022.7 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from pandas>=1.3.0->yfinance) (2023.3)
+Requirement already satisfied: charset_normalizer<4,>=2 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from requests>=2.31->yfinance) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from requests>=2.31->yfinance) (3.7)
+Requirement already satisfied: urllib3<3,>=1.26 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from requests>=2.31->yfinance) (2.2.3)
+Requirement already satisfied: certifi>=2023.5.7 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from requests>=2.31->yfinance) (2026.5.20)
+Channels:
+ - defaults
+ - conda-forge
+Platform: osx-arm64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /opt/homebrew/Caskroom/miniconda/base
+
+  added / updated specs:
+    - yfinance
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    appdirs-1.4.4              |     pyhd3eb1b0_0          12 KB
+    html5lib-1.1               |     pyhd3eb1b0_0          91 KB
+    multitasking-0.0.12        |  py312hca03da5_0          27 KB
+    peewee-3.18.2              |  py312hbe2cdee_0         691 KB
+    sqlite-3.50.2              |       h79febb2_1         1.0 MB
+    yfinance-0.2.57            |     pyhd8ed1ab_0          92 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:         1.9 MB
+
+The following NEW packages will be INSTALLED:
+
+  appdirs            pkgs/main/noarch::appdirs-1.4.4-pyhd3eb1b0_0 
+  html5lib           pkgs/main/noarch::html5lib-1.1-pyhd3eb1b0_0 
+  multitasking       pkgs/main/osx-arm64::multitasking-0.0.12-py312hca03da5_0 
+  peewee             pkgs/main/osx-arm64::peewee-3.18.2-py312hbe2cdee_0 
+  yfinance           conda-forge/noarch::yfinance-0.2.57-pyhd8ed1ab_0 
+
+The following packages will be UPDATED:
+
+  sqlite                                  3.45.3-h80987f9_0 --> 3.50.2-h79febb2_1 
+
+
+
+Downloading and Extracting Packages: ...working...sqlite-3.50.2        | 1.0 MB    |            |   0% 
+peewee-3.18.2        | 691 KB    |            |   0% [A
+
+yfinance-0.2.57      | 92 KB     |            |   0% [A[A
+
+
+html5lib-1.1         | 91 KB     |            |   0% [A[A[A
+
+
+
+multitasking-0.0.12  | 27 KB     |            |   0% [A[A[A[A
+
+
+
+
+appdirs-1.4.4        | 12 KB     |            |   0% [A[A[A[A[A
+
+yfinance-0.2.57      | 92 KB     | #7         |  17% [A[Asqlite-3.50.2        | 1.0 MB    | 1          |   1% 
+
+
+html5lib-1.1         | 91 KB     | #7         |  18% [A[A[A
+
+yfinance-0.2.57      | 92 KB     | ########## | 100% [A[A
+
+
+html5lib-1.1         | 91 KB     | ########## | 100% [A[A[A
+
+yfinance-0.2.57      | 92 KB     | ########## | 100% [A[A
+
+
+html5lib-1.1         | 91 KB     | ########## | 100% [A[A[Asqlite-3.50.2        | 1.0 MB    | ########## | 100% 
+peewee-3.18.2        | 691 KB    | 2          |   2% [A
+
+
+
+multitasking-0.0.12  | 27 KB     | ######     |  60% [A[A[A[A
+
+
+
+multitasking-0.0.12  | 27 KB     | ########## | 100% [A[A[A[Asqlite-3.50.2        | 1.0 MB    | ########## | 100% 
+
+
+
+multitasking-0.0.12  | 27 KB     | ########## | 100% [A[A[A[A
+
+
+
+
+appdirs-1.4.4        | 12 KB     | ########## | 100% [A[A[A[A[A
+
+
+
+
+appdirs-1.4.4        | 12 KB     | ########## | 100% [A[A[A[A[A
+
+
+
+
+appdirs-1.4.4        | 12 KB     | ########## | 100% [A[A[A[A[A
+peewee-3.18.2        | 691 KB    | ########## | 100% [A
+peewee-3.18.2        | 691 KB    | ########## | 100% [A
+peewee-3.18.2        | 691 KB    | ########## | 100% [A                                                     
+                                                     [A
+
+                                                     [A[A
+
+
+                                                     [A[A[A
+
+
+
+                                                     [A[A[A[A
+
+
+
+
+                                                     [A[A[A[A[A done
+Preparing transaction: - done
+Verifying transaction: | / - done
+Executing transaction: | / - \ | / - \ | done
+Tue Jun  2 18:49:10 PDT 2026
+install ipython
+Requirement already satisfied: ipython in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (9.14.0)
+Requirement already satisfied: decorator>=5.1.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython) (5.3.1)
+Requirement already satisfied: ipython-pygments-lexers>=1.0.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython) (1.1.1)
+Requirement already satisfied: jedi>=0.18.2 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython) (0.20.0)
+Requirement already satisfied: matplotlib-inline>=0.1.6 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython) (0.2.2)
+Requirement already satisfied: pexpect>4.6 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython) (4.9.0)
+Requirement already satisfied: prompt_toolkit<3.1.0,>=3.0.41 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython) (3.0.52)
+Requirement already satisfied: psutil>=7 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython) (7.0.0)
+Requirement already satisfied: pygments>=2.14.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython) (2.20.0)
+Requirement already satisfied: stack_data>=0.6.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython) (0.6.3)
+Requirement already satisfied: traitlets>=5.13.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython) (5.15.0)
+Requirement already satisfied: parso<0.9.0,>=0.8.6 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from jedi>=0.18.2->ipython) (0.8.7)
+Requirement already satisfied: ptyprocess>=0.5 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from pexpect>4.6->ipython) (0.7.0)
+Requirement already satisfied: wcwidth in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from prompt_toolkit<3.1.0,>=3.0.41->ipython) (0.7.0)
+Requirement already satisfied: executing>=1.2.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from stack_data>=0.6.0->ipython) (2.2.1)
+Requirement already satisfied: asttokens>=2.1.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from stack_data>=0.6.0->ipython) (3.0.1)
+Requirement already satisfied: pure_eval in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from stack_data>=0.6.0->ipython) (0.2.3)
+Channels:
+ - defaults
+ - conda-forge
+Platform: osx-arm64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+# All requested packages already installed.
+
+Tue Jun  2 18:49:17 PDT 2026
+install psycopg2
+Requirement already satisfied: psycopg2 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (2.9.9)
+Channels:
+ - defaults
+ - conda-forge
+Platform: osx-arm64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /opt/homebrew/Caskroom/miniconda/base
+
+  added / updated specs:
+    - psycopg2
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    expat-2.8.1                |       h50f4ffc_0          21 KB
+    gdal-3.6.2                 |  py312h5ed0132_7         1.6 MB
+    libabseil-20250127.0       | cxx17_h313beb8_0         1.2 MB
+    libevent-2.1.12            |       h02f6b3c_1         391 KB
+    libexpat-2.8.1             |       h50f4ffc_0         110 KB
+    libgdal-3.6.2              |       h51eea9d_7         8.3 MB
+    libkrb5-1.22.1             |       ha46c28b_0         650 KB
+    libpq-17.9                 |       h4d90150_1         2.5 MB
+    libprotobuf-5.29.3         |       h14f15fd_1         2.8 MB
+    libsodium-1.0.21           |       h3b9da34_0         236 KB
+    lmdb-0.9.31                |       h79febb2_0         201 KB
+    mysql-8.4.0                |       h065ec36_2        61.5 MB
+    openldap-2.6.12            |       hd35989b_1         833 KB
+    psycopg2-2.9.11            |  py312h08ee000_0         220 KB
+    qt-main-5.15.2             |      h0917680_12        38.5 MB
+    zeromq-4.3.5               |       h62bdfe2_2         275 KB
+    ------------------------------------------------------------
+                                           Total:       119.3 MB
+
+The following NEW packages will be INSTALLED:
+
+  libabseil          pkgs/main/osx-arm64::libabseil-20250127.0-cxx17_h313beb8_0 
+  libevent           pkgs/main/osx-arm64::libevent-2.1.12-h02f6b3c_1 
+  libkrb5            pkgs/main/osx-arm64::libkrb5-1.22.1-ha46c28b_0 
+  libprotobuf        pkgs/main/osx-arm64::libprotobuf-5.29.3-h14f15fd_1 
+  lmdb               pkgs/main/osx-arm64::lmdb-0.9.31-h79febb2_0 
+  openldap           pkgs/main/osx-arm64::openldap-2.6.12-hd35989b_1 
+
+The following packages will be UPDATED:
+
+  expat                                    2.6.2-h313beb8_0 --> 2.8.1-h50f4ffc_0 
+  gdal                                3.6.2-py312h5ed0132_5 --> 3.6.2-py312h5ed0132_7 
+  libexpat           conda-forge::libexpat-2.6.2-hebf3989_0 --> pkgs/main::libexpat-2.8.1-h50f4ffc_0 
+  libgdal                                  3.6.2-h51eea9d_5 --> 3.6.2-h51eea9d_7 
+  libpq                                    12.17-h02f6b3c_0 --> 17.9-h4d90150_1 
+  libsodium                               1.0.18-h1a28f6b_0 --> 1.0.21-h3b9da34_0 
+  mysql                                   5.7.24-ha71a6ea_2 --> 8.4.0-h065ec36_2 
+  psycopg2                            2.9.9-py312h80987f9_0 --> 2.9.11-py312h08ee000_0 
+  qt-main                                5.15.2-h0917680_10 --> 5.15.2-h0917680_12 
+  zeromq                                   4.3.5-h313beb8_0 --> 4.3.5-h62bdfe2_2 
+
+
+
+Downloading and Extracting Packages: ...working...mysql-8.4.0          | 61.5 MB   |            |   0% 
+qt-main-5.15.2       | 38.5 MB   |            |   0% [A
+
+libgdal-3.6.2        | 8.3 MB    |            |   0% [A[A
+
+
+libprotobuf-5.29.3   | 2.8 MB    |            |   0% [A[A[A
+
+
+
+libpq-17.9           | 2.5 MB    |            |   0% [A[A[A[A
+
+
+
+
+gdal-3.6.2           | 1.6 MB    |            |   0% [A[A[A[A[A
+
+
+
+
+
+libabseil-20250127.0 | 1.2 MB    |            |   0% [A[A[A[A[A[A
+
+
+
+
+
+
+openldap-2.6.12      | 833 KB    |            |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+libkrb5-1.22.1       | 650 KB    |            |   0% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libevent-2.1.12      | 391 KB    |            |   0% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+zeromq-4.3.5         | 275 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libsodium-1.0.21     | 236 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+psycopg2-2.9.11      | 220 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+lmdb-0.9.31          | 201 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+libexpat-2.8.1       | 110 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+expat-2.8.1          | 21 KB     |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[Amysql-8.4.0          | 61.5 MB   |            |   0% 
+
+
+
+libpq-17.9           | 2.5 MB    |            |   1% [A[A[A[A
+
+
+libprotobuf-5.29.3   | 2.8 MB    |            |   1% [A[A[A
+qt-main-5.15.2       | 38.5 MB   |            |   0% [A
+
+libgdal-3.6.2        | 8.3 MB    |            |   0% [A[A
+
+
+
+libpq-17.9           | 2.5 MB    | ###        |  31% [A[A[A[Amysql-8.4.0          | 61.5 MB   | 1          |   1% 
+
+
+libprotobuf-5.29.3   | 2.8 MB    | ##1        |  22% [A[A[A
+qt-main-5.15.2       | 38.5 MB   | 1          |   2% [A
+
+libgdal-3.6.2        | 8.3 MB    | 4          |   5% [A[A
+
+
+
+libpq-17.9           | 2.5 MB    | ########5  |  86% [A[A[A[Amysql-8.4.0          | 61.5 MB   | 3          |   3% 
+
+
+libprotobuf-5.29.3   | 2.8 MB    | #####8     |  58% [A[A[A
+qt-main-5.15.2       | 38.5 MB   | 4          |   5% [A
+
+
+
+libpq-17.9           | 2.5 MB    | ########## | 100% [A[A[A[A
+
+libgdal-3.6.2        | 8.3 MB    | 8          |   8% [A[Amysql-8.4.0          | 61.5 MB   | 5          |   6% 
+
+
+libprotobuf-5.29.3   | 2.8 MB    | #########9 | 100% [A[A[A
+qt-main-5.15.2       | 38.5 MB   | #1         |  12% [A
+
+
+libprotobuf-5.29.3   | 2.8 MB    | ########## | 100% [A[A[A
+
+libgdal-3.6.2        | 8.3 MB    | #4         |  14% [A[Amysql-8.4.0          | 61.5 MB   | 8          |   8% 
+qt-main-5.15.2       | 38.5 MB   | ##         |  21% [A
+
+
+
+
+
+libabseil-20250127.0 | 1.2 MB    | 1          |   1% [A[A[A[A[A[A
+
+
+
+
+gdal-3.6.2           | 1.6 MB    |            |   1% [A[A[A[A[A
+
+libgdal-3.6.2        | 8.3 MB    | #9         |  20% [A[Amysql-8.4.0          | 61.5 MB   | 9          |  10% 
+qt-main-5.15.2       | 38.5 MB   | ##7        |  28% [A
+
+
+libprotobuf-5.29.3   | 2.8 MB    | ########## | 100% [A[A[A
+
+
+
+
+
+libabseil-20250127.0 | 1.2 MB    | #######5   |  76% [A[A[A[A[A[A
+
+
+
+
+
+libabseil-20250127.0 | 1.2 MB    | ########## | 100% [A[A[A[A[A[A
+
+
+
+
+gdal-3.6.2           | 1.6 MB    | #5         |  15% [A[A[A[A[A
+
+
+
+libpq-17.9           | 2.5 MB    | ########## | 100% [A[A[A[Amysql-8.4.0          | 61.5 MB   | #2         |  13% 
+qt-main-5.15.2       | 38.5 MB   | ###4       |  34% [A
+
+libgdal-3.6.2        | 8.3 MB    | ##5        |  25% [A[A
+
+
+
+
+gdal-3.6.2           | 1.6 MB    | #######3   |  74% [A[A[A[A[A
+
+
+
+
+
+
+openldap-2.6.12      | 833 KB    | 1          |   2% [A[A[A[A[A[A[A
+
+
+
+
+gdal-3.6.2           | 1.6 MB    | ########## | 100% [A[A[A[A[Amysql-8.4.0          | 61.5 MB   | #5         |  16% 
+
+libgdal-3.6.2        | 8.3 MB    | ###        |  31% [A[A
+qt-main-5.15.2       | 38.5 MB   | ####1      |  41% [A
+
+
+
+
+
+
+openldap-2.6.12      | 833 KB    | ########## | 100% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+libkrb5-1.22.1       | 650 KB    | 2          |   2% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+libkrb5-1.22.1       | 650 KB    | ########## | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libevent-2.1.12      | 391 KB    | 4          |   4% [A[A[A[A[A[A[A[A[Amysql-8.4.0          | 61.5 MB   | #8         |  19% 
+
+
+
+
+
+libabseil-20250127.0 | 1.2 MB    | ########## | 100% [A[A[A[A[A[A
+qt-main-5.15.2       | 38.5 MB   | #####      |  51% [A
+
+libgdal-3.6.2        | 8.3 MB    | ###6       |  37% [A[A
+
+
+
+
+
+
+
+
+libevent-2.1.12      | 391 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+gdal-3.6.2           | 1.6 MB    | ########## | 100% [A[A[A[A[A
+
+
+
+
+
+
+
+libkrb5-1.22.1       | 650 KB    | ########## | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+libkrb5-1.22.1       | 650 KB    | ########## | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+openldap-2.6.12      | 833 KB    | ########## | 100% [A[A[A[A[A[A[A
+
+
+
+
+
+
+openldap-2.6.12      | 833 KB    | ########## | 100% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libevent-2.1.12      | 391 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libevent-2.1.12      | 391 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libsodium-1.0.21     | 236 KB    | 6          |   7% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+zeromq-4.3.5         | 275 KB    | 5          |   6% [A[A[A[A[A[A[A[A[A[Amysql-8.4.0          | 61.5 MB   | ##2        |  22% 
+qt-main-5.15.2       | 38.5 MB   | #####8     |  58% [A
+
+libgdal-3.6.2        | 8.3 MB    | ####2      |  43% [A[A
+
+
+
+
+
+
+
+
+
+zeromq-4.3.5         | 275 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libsodium-1.0.21     | 236 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+zeromq-4.3.5         | 275 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libsodium-1.0.21     | 236 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+lmdb-0.9.31          | 201 KB    | 7          |   8% [A[A[A[A[A[A[A[A[A[A[A[A[Amysql-8.4.0          | 61.5 MB   | ##5        |  26% 
+
+
+
+
+
+
+
+
+
+
+
+psycopg2-2.9.11      | 220 KB    | 7          |   7% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+lmdb-0.9.31          | 201 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+qt-main-5.15.2       | 38.5 MB   | ######8    |  68% [A
+
+libgdal-3.6.2        | 8.3 MB    | ####8      |  49% [A[A
+
+
+
+
+
+
+
+
+
+
+
+psycopg2-2.9.11      | 220 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+lmdb-0.9.31          | 201 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+psycopg2-2.9.11      | 220 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+libexpat-2.8.1       | 110 KB    | #4         |  15% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+libexpat-2.8.1       | 110 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+expat-2.8.1          | 21 KB     | #######7   |  78% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+expat-2.8.1          | 21 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[Amysql-8.4.0          | 61.5 MB   | ##9        |  29% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+libexpat-2.8.1       | 110 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+expat-2.8.1          | 21 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+qt-main-5.15.2       | 38.5 MB   | #######8   |  78% [A
+
+libgdal-3.6.2        | 8.3 MB    | #####4     |  55% [A[Amysql-8.4.0          | 61.5 MB   | ###3       |  33% 
+qt-main-5.15.2       | 38.5 MB   | ########8  |  88% [A
+
+libgdal-3.6.2        | 8.3 MB    | ######1    |  61% [A[Amysql-8.4.0          | 61.5 MB   | ###6       |  36% 
+qt-main-5.15.2       | 38.5 MB   | #########7 |  97% [A
+
+libgdal-3.6.2        | 8.3 MB    | ######6    |  67% [A[A
+qt-main-5.15.2       | 38.5 MB   | ########## | 100% [Amysql-8.4.0          | 61.5 MB   | ####       |  40% 
+
+libgdal-3.6.2        | 8.3 MB    | #######2   |  73% [A[Amysql-8.4.0          | 61.5 MB   | ####4      |  45% 
+
+libgdal-3.6.2        | 8.3 MB    | #######9   |  79% [A[Amysql-8.4.0          | 61.5 MB   | ####9      |  50% 
+
+libgdal-3.6.2        | 8.3 MB    | ########5  |  86% [A[Amysql-8.4.0          | 61.5 MB   | #####4     |  55% 
+
+libgdal-3.6.2        | 8.3 MB    | #########3 |  94% [A[Amysql-8.4.0          | 61.5 MB   | ######1    |  61% 
+
+libgdal-3.6.2        | 8.3 MB    | ########## | 100% [A[Amysql-8.4.0          | 61.5 MB   | ######7    |  67% 
+
+libgdal-3.6.2        | 8.3 MB    | ########## | 100% [A[Amysql-8.4.0          | 61.5 MB   | #######4   |  74% mysql-8.4.0          | 61.5 MB   | ########2  |  82% mysql-8.4.0          | 61.5 MB   | ########8  |  89% mysql-8.4.0          | 61.5 MB   | #########7 |  98% mysql-8.4.0          | 61.5 MB   | ########## | 100% mysql-8.4.0          | 61.5 MB   | ########## | 100% 
+qt-main-5.15.2       | 38.5 MB   | ########## | 100% [A                                                     
+                                                     [A
+
+                                                     [A[A
+
+
+                                                     [A[A[A
+
+
+
+                                                     [A[A[A[A
+
+
+
+
+                                                     [A[A[A[A[A
+
+
+
+
+
+                                                     [A[A[A[A[A[A
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A done
+Preparing transaction: - \ | done
+Verifying transaction: - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / done
+Executing transaction: \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - done
+Tue Jun  2 18:49:56 PDT 2026
+install ipython-sql
+Requirement already satisfied: ipython-sql in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (0.3.9)
+Requirement already satisfied: prettytable in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython-sql) (3.5.0)
+Requirement already satisfied: ipython>=1.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython-sql) (9.14.0)
+Requirement already satisfied: sqlalchemy>=0.6.7 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython-sql) (2.0.48)
+Requirement already satisfied: sqlparse in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython-sql) (0.4.4)
+Requirement already satisfied: six in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython-sql) (1.17.0)
+Requirement already satisfied: ipython-genutils>=0.1.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython-sql) (0.2.0)
+Requirement already satisfied: decorator>=5.1.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython>=1.0->ipython-sql) (5.3.1)
+Requirement already satisfied: ipython-pygments-lexers>=1.0.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython>=1.0->ipython-sql) (1.1.1)
+Requirement already satisfied: jedi>=0.18.2 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython>=1.0->ipython-sql) (0.20.0)
+Requirement already satisfied: matplotlib-inline>=0.1.6 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython>=1.0->ipython-sql) (0.2.2)
+Requirement already satisfied: pexpect>4.6 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython>=1.0->ipython-sql) (4.9.0)
+Requirement already satisfied: prompt_toolkit<3.1.0,>=3.0.41 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython>=1.0->ipython-sql) (3.0.52)
+Requirement already satisfied: psutil>=7 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython>=1.0->ipython-sql) (7.0.0)
+Requirement already satisfied: pygments>=2.14.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython>=1.0->ipython-sql) (2.20.0)
+Requirement already satisfied: stack_data>=0.6.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython>=1.0->ipython-sql) (0.6.3)
+Requirement already satisfied: traitlets>=5.13.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from ipython>=1.0->ipython-sql) (5.15.0)
+Requirement already satisfied: typing-extensions>=4.6.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from sqlalchemy>=0.6.7->ipython-sql) (4.11.0)
+Requirement already satisfied: wcwidth in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from prettytable->ipython-sql) (0.7.0)
+Requirement already satisfied: parso<0.9.0,>=0.8.6 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from jedi>=0.18.2->ipython>=1.0->ipython-sql) (0.8.7)
+Requirement already satisfied: ptyprocess>=0.5 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from pexpect>4.6->ipython>=1.0->ipython-sql) (0.7.0)
+Requirement already satisfied: executing>=1.2.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from stack_data>=0.6.0->ipython>=1.0->ipython-sql) (2.2.1)
+Requirement already satisfied: asttokens>=2.1.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from stack_data>=0.6.0->ipython>=1.0->ipython-sql) (3.0.1)
+Requirement already satisfied: pure_eval in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from stack_data>=0.6.0->ipython>=1.0->ipython-sql) (0.2.3)
+Channels:
+ - defaults
+ - conda-forge
+Platform: osx-arm64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+# All requested packages already installed.
+
+Tue Jun  2 18:50:04 PDT 2026
+install plotly
+Requirement already satisfied: plotly in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (6.0.0)
+Requirement already satisfied: narwhals>=1.15.1 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from plotly) (1.29.1)
+Requirement already satisfied: packaging in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from plotly) (26.2)
+Channels:
+ - defaults
+ - conda-forge
+Platform: osx-arm64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /opt/homebrew/Caskroom/miniconda/base
+
+  added / updated specs:
+    - plotly
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    plotly-6.7.0               |  py312h7eb115d_0         6.4 MB
+    ------------------------------------------------------------
+                                           Total:         6.4 MB
+
+The following packages will be UPDATED:
+
+  plotly             conda-forge/noarch::plotly-6.0.0-pyhd~ --> pkgs/main/osx-arm64::plotly-6.7.0-py312h7eb115d_0 
+
+
+
+Downloading and Extracting Packages: ...working...plotly-6.7.0         | 6.4 MB    |            |   0% plotly-6.7.0         | 6.4 MB    |            |   0% plotly-6.7.0         | 6.4 MB    | ###6       |  36% plotly-6.7.0         | 6.4 MB    | ########## | 100% plotly-6.7.0         | 6.4 MB    | ########## | 100% plotly-6.7.0         | 6.4 MB    | ########## | 100%                                                       done
+Preparing transaction: - \ done
+Verifying transaction: / - done
+Executing transaction: | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / done
+Tue Jun  2 18:50:26 PDT 2026
+install openpyxl
+Requirement already satisfied: openpyxl in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (3.1.5)
+Requirement already satisfied: et-xmlfile in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from openpyxl) (1.1.0)
+Channels:
+ - defaults
+ - conda-forge
+Platform: osx-arm64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+# All requested packages already installed.
+
+Tue Jun  2 18:50:33 PDT 2026
+install folium
+Requirement already satisfied: folium in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (0.14.0)
+Requirement already satisfied: branca>=0.6.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from folium) (0.6.0)
+Requirement already satisfied: jinja2>=2.9 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from folium) (3.1.4)
+Requirement already satisfied: numpy in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from folium) (1.26.4)
+Requirement already satisfied: requests in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from folium) (2.34.2)
+Requirement already satisfied: MarkupSafe>=2.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from jinja2>=2.9->folium) (2.1.3)
+Requirement already satisfied: charset_normalizer<4,>=2 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from requests->folium) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from requests->folium) (3.7)
+Requirement already satisfied: urllib3<3,>=1.26 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from requests->folium) (2.2.3)
+Requirement already satisfied: certifi>=2023.5.7 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from requests->folium) (2026.5.20)
+Channels:
+ - defaults
+ - conda-forge
+Platform: osx-arm64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /opt/homebrew/Caskroom/miniconda/base
+
+  added / updated specs:
+    - folium
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    folium-0.20.0              |  py312hca03da5_0         152 KB
+    ------------------------------------------------------------
+                                           Total:         152 KB
+
+The following packages will be UPDATED:
+
+  folium                             0.14.0-py312hca03da5_0 --> 0.20.0-py312hca03da5_0 
+
+
+
+Downloading and Extracting Packages: ...working...folium-0.20.0        | 152 KB    |            |   0% folium-0.20.0        | 152 KB    | #          |  11% folium-0.20.0        | 152 KB    | ########## | 100% folium-0.20.0        | 152 KB    | ########## | 100%                                                       done
+Preparing transaction: - done
+Verifying transaction: | done
+Executing transaction: - \ done
+Tue Jun  2 18:50:40 PDT 2026
+install geopandas
+Requirement already satisfied: geopandas in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (0.14.2)
+Requirement already satisfied: fiona>=1.8.21 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from geopandas) (1.9.5)
+Requirement already satisfied: packaging in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from geopandas) (26.2)
+Requirement already satisfied: pandas>=1.4.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from geopandas) (2.3.3)
+Requirement already satisfied: pyproj>=3.3.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from geopandas) (3.6.1)
+Requirement already satisfied: shapely>=1.8.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from geopandas) (2.0.5)
+Requirement already satisfied: attrs>=19.2.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from fiona>=1.8.21->geopandas) (23.1.0)
+Requirement already satisfied: certifi in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from fiona>=1.8.21->geopandas) (2026.5.20)
+Requirement already satisfied: click~=8.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from fiona>=1.8.21->geopandas) (8.1.7)
+Requirement already satisfied: click-plugins>=1.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from fiona>=1.8.21->geopandas) (1.1.1)
+Requirement already satisfied: cligj>=0.5 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from fiona>=1.8.21->geopandas) (0.7.2)
+Requirement already satisfied: six in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from fiona>=1.8.21->geopandas) (1.17.0)
+Requirement already satisfied: setuptools in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from fiona>=1.8.21->geopandas) (72.1.0)
+Requirement already satisfied: numpy>=1.26.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from pandas>=1.4.0->geopandas) (1.26.4)
+Requirement already satisfied: python-dateutil>=2.8.2 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from pandas>=1.4.0->geopandas) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from pandas>=1.4.0->geopandas) (2024.1)
+Requirement already satisfied: tzdata>=2022.7 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.12/site-packages (from pandas>=1.4.0->geopandas) (2023.3)
+Channels:
+ - defaults
+ - conda-forge
+Platform: osx-arm64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /opt/homebrew/Caskroom/miniconda/base
+
+  added / updated specs:
+    - geopandas
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    geopandas-1.1.3            |  py312hca03da5_0         1.4 MB
+    geopandas-base-1.1.3       |  py312hca03da5_0         2.2 MB
+    pyogrio-0.10.0             |  py312hcf39714_0         777 KB
+    ------------------------------------------------------------
+                                           Total:         4.4 MB
+
+The following NEW packages will be INSTALLED:
+
+  pyogrio            pkgs/main/osx-arm64::pyogrio-0.10.0-py312hcf39714_0 
+
+The following packages will be UPDATED:
+
+  geopandas                          0.14.2-py312hca03da5_0 --> 1.1.3-py312hca03da5_0 
+  geopandas-base                     0.14.2-py312hca03da5_0 --> 1.1.3-py312hca03da5_0 
+
+
+
+Downloading and Extracting Packages: ...working...geopandas-base-1.1.3 | 2.2 MB    |            |   0% 
+geopandas-1.1.3      | 1.4 MB    |            |   0% [A
+
+pyogrio-0.10.0       | 777 KB    |            |   0% [A[Ageopandas-base-1.1.3 | 2.2 MB    |            |   1% 
+geopandas-1.1.3      | 1.4 MB    | 1          |   1% [A
+
+pyogrio-0.10.0       | 777 KB    | 2          |   2% [A[A
+geopandas-1.1.3      | 1.4 MB    | ####4      |  44% [Ageopandas-base-1.1.3 | 2.2 MB    | #####5     |  56% geopandas-base-1.1.3 | 2.2 MB    | ########## | 100% 
+geopandas-1.1.3      | 1.4 MB    | ########## | 100% [A
+
+pyogrio-0.10.0       | 777 KB    | ####7      |  47% [A[A
+
+pyogrio-0.10.0       | 777 KB    | ########## | 100% [A[A
+geopandas-1.1.3      | 1.4 MB    | ########## | 100% [A
+geopandas-1.1.3      | 1.4 MB    | ########## | 100% [A
+
+pyogrio-0.10.0       | 777 KB    | ########## | 100% [A[A
+
+pyogrio-0.10.0       | 777 KB    | ########## | 100% [A[Ageopandas-base-1.1.3 | 2.2 MB    | ########## | 100% geopandas-base-1.1.3 | 2.2 MB    | ########## | 100%                                                      
+                                                     [A
+
+                                                     [A[A done
+Preparing transaction: - done
+Verifying transaction: | / done
+Executing transaction: \ | done
+done installation
+Fri Aug 14 17:50:13 PDT 2026
+list of packages ...
+pandas
+numpy
+scipy
+matplotlib
+requests
+bs4
+seaborn
+PIL 
+pptx
+datasette
+ipython
+ipython-sql
+statsmodels
+sklearn
+scikit-learn
+yfinance
+ipython
+psycopg2
+ipython-sql
+plotly
+openpyxl
+folium
+geopandasFri Aug 14 17:50:13 PDT 2026
+install pandas
+Requirement already satisfied: pandas in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (3.0.5)
+Requirement already satisfied: numpy>=2.3.3 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from pandas) (2.5.2)
+Requirement already satisfied: python-dateutil>=2.8.2 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from pandas) (2.9.0.post0)
+Requirement already satisfied: six>=1.5 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from python-dateutil>=2.8.2->pandas) (1.17.0)
+Fri Aug 14 17:50:17 PDT 2026
+install numpy
+Requirement already satisfied: numpy in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (2.5.2)
+Fri Aug 14 17:50:18 PDT 2026
+install scipy
+Collecting scipy
+  Downloading scipy-1.18.0-cp314-cp314-macosx_14_0_arm64.whl.metadata (62 kB)
+Requirement already satisfied: numpy<2.8,>=2.0.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from scipy) (2.5.2)
+Downloading scipy-1.18.0-cp314-cp314-macosx_14_0_arm64.whl (20.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 20.4/20.4 MB 38.6 MB/s  0:00:00
+Installing collected packages: scipy
+Successfully installed scipy-1.18.0
+Fri Aug 14 17:50:22 PDT 2026
+install matplotlib
+Collecting matplotlib
+  Downloading matplotlib-3.11.1-cp314-cp314-macosx_11_0_arm64.whl.metadata (80 kB)
+Collecting contourpy>=1.0.1 (from matplotlib)
+  Downloading contourpy-1.3.3-cp314-cp314-macosx_11_0_arm64.whl.metadata (5.5 kB)
+Collecting cycler>=0.10 (from matplotlib)
+  Downloading cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+Collecting fonttools>=4.28.2 (from matplotlib)
+  Downloading fonttools-4.63.0-cp314-cp314-macosx_10_15_universal2.whl.metadata (118 kB)
+Collecting kiwisolver>=1.3.1 (from matplotlib)
+  Downloading kiwisolver-1.5.0-cp314-cp314-macosx_11_0_arm64.whl.metadata (5.1 kB)
+Requirement already satisfied: numpy>=1.25 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from matplotlib) (2.5.2)
+Requirement already satisfied: packaging>=20.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from matplotlib) (26.0)
+Collecting pillow>=9 (from matplotlib)
+  Downloading pillow-12.3.0-cp314-cp314-macosx_11_0_arm64.whl.metadata (9.1 kB)
+Collecting pyparsing>=3 (from matplotlib)
+  Downloading pyparsing-3.3.2-py3-none-any.whl.metadata (5.8 kB)
+Requirement already satisfied: python-dateutil>=2.7 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from matplotlib) (2.9.0.post0)
+Requirement already satisfied: six>=1.5 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from python-dateutil>=2.7->matplotlib) (1.17.0)
+Downloading matplotlib-3.11.1-cp314-cp314-macosx_11_0_arm64.whl (9.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.3/9.3 MB 49.0 MB/s  0:00:00
+Downloading contourpy-1.3.3-cp314-cp314-macosx_11_0_arm64.whl (273 kB)
+Downloading cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Downloading fonttools-4.63.0-cp314-cp314-macosx_10_15_universal2.whl (2.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.9/2.9 MB 45.2 MB/s  0:00:00
+Downloading kiwisolver-1.5.0-cp314-cp314-macosx_11_0_arm64.whl (64 kB)
+Downloading pillow-12.3.0-cp314-cp314-macosx_11_0_arm64.whl (4.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.8/4.8 MB 54.6 MB/s  0:00:00
+Downloading pyparsing-3.3.2-py3-none-any.whl (122 kB)
+Installing collected packages: pyparsing, pillow, kiwisolver, fonttools, cycler, contourpy, matplotlib
+
+Successfully installed contourpy-1.3.3 cycler-0.12.1 fonttools-4.63.0 kiwisolver-1.5.0 matplotlib-3.11.1 pillow-12.3.0 pyparsing-3.3.2
+Fri Aug 14 17:50:27 PDT 2026
+install requests
+Requirement already satisfied: requests in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (2.34.2)
+Requirement already satisfied: charset_normalizer<4,>=2 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from requests) (3.4.7)
+Requirement already satisfied: idna<4,>=2.5 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from requests) (3.18)
+Requirement already satisfied: urllib3<3,>=1.26 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from requests) (2.7.0)
+Requirement already satisfied: certifi>=2023.5.7 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from requests) (2026.6.17)
+Fri Aug 14 17:50:28 PDT 2026
+install bs4
+Collecting bs4
+  Using cached bs4-0.0.2-py2.py3-none-any.whl.metadata (411 bytes)
+Collecting beautifulsoup4 (from bs4)
+  Downloading beautifulsoup4-4.15.0-py3-none-any.whl.metadata (3.8 kB)
+Collecting soupsieve>=1.6.1 (from beautifulsoup4->bs4)
+  Downloading soupsieve-2.9.2-py3-none-any.whl.metadata (4.6 kB)
+Requirement already satisfied: typing-extensions>=4.0.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from beautifulsoup4->bs4) (4.16.0)
+Using cached bs4-0.0.2-py2.py3-none-any.whl (1.2 kB)
+Downloading beautifulsoup4-4.15.0-py3-none-any.whl (109 kB)
+Downloading soupsieve-2.9.2-py3-none-any.whl (37 kB)
+Installing collected packages: soupsieve, beautifulsoup4, bs4
+
+Successfully installed beautifulsoup4-4.15.0 bs4-0.0.2 soupsieve-2.9.2
+Fri Aug 14 17:50:29 PDT 2026
+install seaborn
+Collecting seaborn
+  Using cached seaborn-0.13.2-py3-none-any.whl.metadata (5.4 kB)
+Requirement already satisfied: numpy!=1.24.0,>=1.20 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from seaborn) (2.5.2)
+Requirement already satisfied: pandas>=1.2 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from seaborn) (3.0.5)
+Requirement already satisfied: matplotlib!=3.6.1,>=3.4 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from seaborn) (3.11.1)
+Requirement already satisfied: contourpy>=1.0.1 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (1.3.3)
+Requirement already satisfied: cycler>=0.10 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (0.12.1)
+Requirement already satisfied: fonttools>=4.28.2 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (4.63.0)
+Requirement already satisfied: kiwisolver>=1.3.1 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (1.5.0)
+Requirement already satisfied: packaging>=20.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (26.0)
+Requirement already satisfied: pillow>=9 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (12.3.0)
+Requirement already satisfied: pyparsing>=3 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (3.3.2)
+Requirement already satisfied: python-dateutil>=2.7 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (2.9.0.post0)
+Requirement already satisfied: six>=1.5 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from python-dateutil>=2.7->matplotlib!=3.6.1,>=3.4->seaborn) (1.17.0)
+Using cached seaborn-0.13.2-py3-none-any.whl (294 kB)
+Installing collected packages: seaborn
+Successfully installed seaborn-0.13.2
+Fri Aug 14 17:50:30 PDT 2026
+install PIL
+Fri Aug 14 17:50:31 PDT 2026
+install pptx
+Fri Aug 14 17:50:32 PDT 2026
+install datasette
+Collecting datasette
+  Downloading datasette-0.65.3-py3-none-any.whl.metadata (8.1 kB)
+Collecting asgiref>=3.2.10 (from datasette)
+  Downloading asgiref-3.12.1-py3-none-any.whl.metadata (9.4 kB)
+Requirement already satisfied: click>=7.1.1 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from datasette) (8.4.1)
+Collecting click-default-group>=1.2.3 (from datasette)
+  Using cached click_default_group-1.2.4-py2.py3-none-any.whl.metadata (2.8 kB)
+Requirement already satisfied: Jinja2>=2.10.3 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from datasette) (3.1.6)
+Collecting hupper>=1.9 (from datasette)
+  Using cached hupper-1.12.1-py3-none-any.whl.metadata (3.7 kB)
+Requirement already satisfied: httpx>=0.20 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from datasette) (0.28.1)
+Requirement already satisfied: pluggy>=1.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from datasette) (1.6.0)
+Collecting uvicorn>=0.11 (from datasette)
+  Downloading uvicorn-0.52.3-py3-none-any.whl.metadata (6.6 kB)
+Collecting aiofiles>=0.4 (from datasette)
+  Using cached aiofiles-25.1.0-py3-none-any.whl.metadata (6.3 kB)
+Collecting janus>=0.6.2 (from datasette)
+  Using cached janus-2.0.0-py3-none-any.whl.metadata (5.3 kB)
+Collecting asgi-csrf>=0.9 (from datasette)
+  Using cached asgi_csrf-0.11-py3-none-any.whl.metadata (8.4 kB)
+Collecting PyYAML>=5.3 (from datasette)
+  Downloading pyyaml-6.0.3-cp314-cp314-macosx_11_0_arm64.whl.metadata (2.4 kB)
+Collecting mergedeep>=1.1.1 (from datasette)
+  Using cached mergedeep-1.3.4-py3-none-any.whl.metadata (4.3 kB)
+Collecting itsdangerous>=1.1 (from datasette)
+  Using cached itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)
+Requirement already satisfied: setuptools in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from datasette) (83.0.0)
+Requirement already satisfied: pip in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from datasette) (26.1.2)
+Requirement already satisfied: platformdirs>=2.1.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from datasette) (4.11.0)
+Requirement already satisfied: typing_extensions>=4.0.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from datasette) (4.16.0)
+Collecting flexcache>=0.3 (from datasette)
+  Using cached flexcache-0.3-py3-none-any.whl.metadata (7.0 kB)
+Collecting flexparser>=0.3 (from datasette)
+  Using cached flexparser-0.4-py3-none-any.whl.metadata (18 kB)
+Collecting python-multipart>=0.0.13 (from asgi-csrf>=0.9->datasette)
+  Downloading python_multipart-0.0.32-py3-none-any.whl.metadata (2.1 kB)
+Requirement already satisfied: anyio in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from httpx>=0.20->datasette) (4.12.1)
+Requirement already satisfied: certifi in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from httpx>=0.20->datasette) (2026.6.17)
+Requirement already satisfied: httpcore==1.* in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from httpx>=0.20->datasette) (1.0.9)
+Requirement already satisfied: idna in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from httpx>=0.20->datasette) (3.18)
+Requirement already satisfied: h11>=0.16 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from httpcore==1.*->httpx>=0.20->datasette) (0.16.0)
+Requirement already satisfied: MarkupSafe>=2.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from Jinja2>=2.10.3->datasette) (3.0.3)
+Downloading datasette-0.65.3-py3-none-any.whl (397 kB)
+Using cached aiofiles-25.1.0-py3-none-any.whl (14 kB)
+Using cached asgi_csrf-0.11-py3-none-any.whl (11 kB)
+Downloading asgiref-3.12.1-py3-none-any.whl (25 kB)
+Using cached click_default_group-1.2.4-py2.py3-none-any.whl (4.1 kB)
+Using cached flexcache-0.3-py3-none-any.whl (13 kB)
+Using cached flexparser-0.4-py3-none-any.whl (27 kB)
+Using cached hupper-1.12.1-py3-none-any.whl (22 kB)
+Using cached itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+Using cached janus-2.0.0-py3-none-any.whl (12 kB)
+Using cached mergedeep-1.3.4-py3-none-any.whl (6.4 kB)
+Downloading python_multipart-0.0.32-py3-none-any.whl (30 kB)
+Downloading pyyaml-6.0.3-cp314-cp314-macosx_11_0_arm64.whl (173 kB)
+Downloading uvicorn-0.52.3-py3-none-any.whl (79 kB)
+Installing collected packages: uvicorn, PyYAML, python-multipart, mergedeep, janus, itsdangerous, hupper, flexparser, flexcache, click-default-group, asgiref, aiofiles, asgi-csrf, datasette
+
+Successfully installed PyYAML-6.0.3 aiofiles-25.1.0 asgi-csrf-0.11 asgiref-3.12.1 click-default-group-1.2.4 datasette-0.65.3 flexcache-0.3 flexparser-0.4 hupper-1.12.1 itsdangerous-2.2.0 janus-2.0.0 mergedeep-1.3.4 python-multipart-0.0.32 uvicorn-0.52.3
+Fri Aug 14 17:50:35 PDT 2026
+install ipython
+Collecting ipython
+  Downloading ipython-9.16.1-py3-none-any.whl.metadata (4.6 kB)
+Collecting ipython-pygments-lexers>=1.0.0 (from ipython)
+  Using cached ipython_pygments_lexers-1.1.1-py3-none-any.whl.metadata (1.1 kB)
+Collecting jedi>=0.18.2 (from ipython)
+  Using cached jedi-0.20.0-py2.py3-none-any.whl.metadata (23 kB)
+Collecting matplotlib-inline>=0.1.6 (from ipython)
+  Using cached matplotlib_inline-0.2.2-py3-none-any.whl.metadata (2.4 kB)
+Collecting pexpect>4.6 (from ipython)
+  Using cached pexpect-4.9.0-py2.py3-none-any.whl.metadata (2.5 kB)
+Collecting prompt_toolkit<3.1.0,>=3.0.41 (from ipython)
+  Downloading prompt_toolkit-3.0.53-py3-none-any.whl.metadata (6.4 kB)
+Collecting psutil>=7 (from ipython)
+  Using cached psutil-7.2.2-cp36-abi3-macosx_11_0_arm64.whl.metadata (22 kB)
+Requirement already satisfied: pygments>=2.14.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from ipython) (2.20.0)
+Collecting stack_data>=0.6.0 (from ipython)
+  Using cached stack_data-0.6.3-py3-none-any.whl.metadata (18 kB)
+Collecting traitlets>=5.13.0 (from ipython)
+  Downloading traitlets-5.16.1-py3-none-any.whl.metadata (10 kB)
+Collecting wcwidth>=0.1.4 (from prompt_toolkit<3.1.0,>=3.0.41->ipython)
+  Downloading wcwidth-0.8.2-py3-none-any.whl.metadata (43 kB)
+Collecting parso<0.9.0,>=0.8.6 (from jedi>=0.18.2->ipython)
+  Using cached parso-0.8.7-py2.py3-none-any.whl.metadata (8.2 kB)
+Collecting ptyprocess>=0.5 (from pexpect>4.6->ipython)
+  Using cached ptyprocess-0.7.0-py2.py3-none-any.whl.metadata (1.3 kB)
+Collecting executing>=1.2.0 (from stack_data>=0.6.0->ipython)
+  Using cached executing-2.2.1-py2.py3-none-any.whl.metadata (8.9 kB)
+Collecting asttokens>=2.1.0 (from stack_data>=0.6.0->ipython)
+  Downloading asttokens-3.0.2-py3-none-any.whl.metadata (5.7 kB)
+Collecting pure-eval (from stack_data>=0.6.0->ipython)
+  Using cached pure_eval-0.2.3-py3-none-any.whl.metadata (6.3 kB)
+Downloading ipython-9.16.1-py3-none-any.whl (625 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 626.0/626.0 kB 11.6 MB/s  0:00:00
+Downloading prompt_toolkit-3.0.53-py3-none-any.whl (392 kB)
+Using cached ipython_pygments_lexers-1.1.1-py3-none-any.whl (8.1 kB)
+Using cached jedi-0.20.0-py2.py3-none-any.whl (4.9 MB)
+Using cached parso-0.8.7-py2.py3-none-any.whl (107 kB)
+Using cached matplotlib_inline-0.2.2-py3-none-any.whl (9.5 kB)
+Using cached pexpect-4.9.0-py2.py3-none-any.whl (63 kB)
+Using cached psutil-7.2.2-cp36-abi3-macosx_11_0_arm64.whl (129 kB)
+Using cached ptyprocess-0.7.0-py2.py3-none-any.whl (13 kB)
+Using cached stack_data-0.6.3-py3-none-any.whl (24 kB)
+Downloading asttokens-3.0.2-py3-none-any.whl (28 kB)
+Using cached executing-2.2.1-py2.py3-none-any.whl (28 kB)
+Downloading traitlets-5.16.1-py3-none-any.whl (86 kB)
+Downloading wcwidth-0.8.2-py3-none-any.whl (323 kB)
+Using cached pure_eval-0.2.3-py3-none-any.whl (11 kB)
+Installing collected packages: pure-eval, ptyprocess, wcwidth, traitlets, psutil, pexpect, parso, ipython-pygments-lexers, executing, asttokens, stack_data, prompt_toolkit, matplotlib-inline, jedi, ipython
+
+Successfully installed asttokens-3.0.2 executing-2.2.1 ipython-9.16.1 ipython-pygments-lexers-1.1.1 jedi-0.20.0 matplotlib-inline-0.2.2 parso-0.8.7 pexpect-4.9.0 prompt_toolkit-3.0.53 psutil-7.2.2 ptyprocess-0.7.0 pure-eval-0.2.3 stack_data-0.6.3 traitlets-5.16.1 wcwidth-0.8.2
+Fri Aug 14 17:50:39 PDT 2026
+install ipython-sql
+Collecting ipython-sql
+  Using cached ipython_sql-0.5.0-py3-none-any.whl.metadata (17 kB)
+Collecting prettytable (from ipython-sql)
+  Downloading prettytable-3.18.0-py3-none-any.whl.metadata (37 kB)
+Requirement already satisfied: ipython in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from ipython-sql) (9.16.1)
+Collecting sqlalchemy>=2.0 (from ipython-sql)
+  Downloading sqlalchemy-2.0.52-cp314-cp314-macosx_11_0_arm64.whl.metadata (9.6 kB)
+Collecting sqlparse (from ipython-sql)
+  Downloading sqlparse-0.6.0-py3-none-any.whl.metadata (6.0 kB)
+Requirement already satisfied: six in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from ipython-sql) (1.17.0)
+Collecting ipython-genutils (from ipython-sql)
+  Using cached ipython_genutils-0.2.0-py2.py3-none-any.whl.metadata (755 bytes)
+Requirement already satisfied: typing-extensions>=4.6.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from sqlalchemy>=2.0->ipython-sql) (4.16.0)
+Requirement already satisfied: ipython-pygments-lexers>=1.0.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from ipython->ipython-sql) (1.1.1)
+Requirement already satisfied: jedi>=0.18.2 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from ipython->ipython-sql) (0.20.0)
+Requirement already satisfied: matplotlib-inline>=0.1.6 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from ipython->ipython-sql) (0.2.2)
+Requirement already satisfied: pexpect>4.6 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from ipython->ipython-sql) (4.9.0)
+Requirement already satisfied: prompt_toolkit<3.1.0,>=3.0.41 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from ipython->ipython-sql) (3.0.53)
+Requirement already satisfied: psutil>=7 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from ipython->ipython-sql) (7.2.2)
+Requirement already satisfied: pygments>=2.14.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from ipython->ipython-sql) (2.20.0)
+Requirement already satisfied: stack_data>=0.6.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from ipython->ipython-sql) (0.6.3)
+Requirement already satisfied: traitlets>=5.13.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from ipython->ipython-sql) (5.16.1)
+Requirement already satisfied: wcwidth>=0.1.4 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from prompt_toolkit<3.1.0,>=3.0.41->ipython->ipython-sql) (0.8.2)
+Requirement already satisfied: parso<0.9.0,>=0.8.6 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from jedi>=0.18.2->ipython->ipython-sql) (0.8.7)
+Requirement already satisfied: ptyprocess>=0.5 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from pexpect>4.6->ipython->ipython-sql) (0.7.0)
+Requirement already satisfied: executing>=1.2.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from stack_data>=0.6.0->ipython->ipython-sql) (2.2.1)
+Requirement already satisfied: asttokens>=2.1.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from stack_data>=0.6.0->ipython->ipython-sql) (3.0.2)
+Requirement already satisfied: pure-eval in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from stack_data>=0.6.0->ipython->ipython-sql) (0.2.3)
+Using cached ipython_sql-0.5.0-py3-none-any.whl (20 kB)
+Downloading sqlalchemy-2.0.52-cp314-cp314-macosx_11_0_arm64.whl (2.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.2/2.2 MB 25.7 MB/s  0:00:00
+Using cached ipython_genutils-0.2.0-py2.py3-none-any.whl (26 kB)
+Downloading prettytable-3.18.0-py3-none-any.whl (37 kB)
+Downloading sqlparse-0.6.0-py3-none-any.whl (50 kB)
+Installing collected packages: ipython-genutils, sqlparse, sqlalchemy, prettytable, ipython-sql
+
+Successfully installed ipython-genutils-0.2.0 ipython-sql-0.5.0 prettytable-3.18.0 sqlalchemy-2.0.52 sqlparse-0.6.0
+Fri Aug 14 17:50:41 PDT 2026
+install statsmodels
+Collecting statsmodels
+  Downloading statsmodels-0.14.6-cp314-cp314-macosx_11_0_arm64.whl.metadata (9.5 kB)
+Requirement already satisfied: numpy<3,>=1.22.3 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from statsmodels) (2.5.2)
+Requirement already satisfied: scipy!=1.9.2,>=1.8 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from statsmodels) (1.18.0)
+Requirement already satisfied: pandas!=2.1.0,>=1.4 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from statsmodels) (3.0.5)
+Collecting patsy>=0.5.6 (from statsmodels)
+  Using cached patsy-1.0.2-py2.py3-none-any.whl.metadata (3.6 kB)
+Requirement already satisfied: packaging>=21.3 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from statsmodels) (26.0)
+Requirement already satisfied: python-dateutil>=2.8.2 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from pandas!=2.1.0,>=1.4->statsmodels) (2.9.0.post0)
+Requirement already satisfied: six>=1.5 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from python-dateutil>=2.8.2->pandas!=2.1.0,>=1.4->statsmodels) (1.17.0)
+Downloading statsmodels-0.14.6-cp314-cp314-macosx_11_0_arm64.whl (10.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.0/10.0 MB 31.7 MB/s  0:00:00
+Using cached patsy-1.0.2-py2.py3-none-any.whl (233 kB)
+Installing collected packages: patsy, statsmodels
+
+Successfully installed patsy-1.0.2 statsmodels-0.14.6
+Fri Aug 14 17:50:45 PDT 2026
+install sklearn
+Collecting sklearn
+  Using cached sklearn-0.0.post12.tar.gz (2.6 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'error'
+Fri Aug 14 17:50:46 PDT 2026
+install scikit-learn
+Collecting scikit-learn
+  Downloading scikit_learn-1.9.0-cp314-cp314-macosx_12_0_arm64.whl.metadata (11 kB)
+Requirement already satisfied: numpy>=1.24.1 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from scikit-learn) (2.5.2)
+Requirement already satisfied: scipy>=1.10.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from scikit-learn) (1.18.0)
+Collecting joblib>=1.4.0 (from scikit-learn)
+  Downloading joblib-1.5.3-py3-none-any.whl.metadata (5.5 kB)
+Collecting narwhals>=2.0.1 (from scikit-learn)
+  Downloading narwhals-2.24.0-py3-none-any.whl.metadata (15 kB)
+Collecting threadpoolctl>=3.5.0 (from scikit-learn)
+  Downloading threadpoolctl-3.6.0-py3-none-any.whl.metadata (13 kB)
+Downloading scikit_learn-1.9.0-cp314-cp314-macosx_12_0_arm64.whl (8.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.2/8.2 MB 48.0 MB/s  0:00:00
+Downloading joblib-1.5.3-py3-none-any.whl (309 kB)
+Downloading narwhals-2.24.0-py3-none-any.whl (461 kB)
+Downloading threadpoolctl-3.6.0-py3-none-any.whl (18 kB)
+Installing collected packages: threadpoolctl, narwhals, joblib, scikit-learn
+
+Successfully installed joblib-1.5.3 narwhals-2.24.0 scikit-learn-1.9.0 threadpoolctl-3.6.0
+Fri Aug 14 17:50:50 PDT 2026
+install yfinance
+Collecting yfinance
+  Downloading yfinance-1.6.0-py3-none-any.whl.metadata (6.7 kB)
+Requirement already satisfied: beautifulsoup4>=4.11.1 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from yfinance) (4.15.0)
+Collecting curl_cffi>=0.15 (from yfinance)
+  Downloading curl_cffi-0.16.0-cp310-abi3-macosx_11_0_arm64.whl.metadata (17 kB)
+Collecting lxml>=4.9.0 (from yfinance)
+  Downloading lxml-6.1.1-cp314-cp314-macosx_10_15_universal2.whl.metadata (3.5 kB)
+Collecting multitasking>=0.0.7 (from yfinance)
+  Downloading multitasking-0.0.13-py3-none-any.whl.metadata (16 kB)
+Requirement already satisfied: numpy>=1.16.5 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from yfinance) (2.5.2)
+Requirement already satisfied: pandas>=1.3.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from yfinance) (3.0.5)
+Collecting peewee>=3.16.2 (from yfinance)
+  Downloading peewee-4.3.0-py3-none-any.whl.metadata (10 kB)
+Requirement already satisfied: platformdirs>=2.0.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from yfinance) (4.11.0)
+Collecting protobuf>=3.19.0 (from yfinance)
+  Downloading protobuf-7.35.1-cp310-abi3-macosx_10_9_universal2.whl.metadata (595 bytes)
+Collecting pytz>=2022.5 (from yfinance)
+  Downloading pytz-2026.3.post1-py2.py3-none-any.whl.metadata (22 kB)
+Requirement already satisfied: requests>=2.31 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from yfinance) (2.34.2)
+Collecting websockets>=13.0 (from yfinance)
+  Downloading websockets-17.0.1-cp314-cp314-macosx_11_0_arm64.whl.metadata (6.3 kB)
+Requirement already satisfied: soupsieve>=1.6.1 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from beautifulsoup4>=4.11.1->yfinance) (2.9.2)
+Requirement already satisfied: typing-extensions>=4.0.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from beautifulsoup4>=4.11.1->yfinance) (4.16.0)
+Requirement already satisfied: cffi>=2.0.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from curl_cffi>=0.15->yfinance) (2.1.0)
+Requirement already satisfied: certifi>=2024.2.2 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from curl_cffi>=0.15->yfinance) (2026.6.17)
+Requirement already satisfied: pycparser in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from cffi>=2.0.0->curl_cffi>=0.15->yfinance) (3.0)
+Requirement already satisfied: python-dateutil>=2.8.2 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from pandas>=1.3.0->yfinance) (2.9.0.post0)
+Requirement already satisfied: six>=1.5 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from python-dateutil>=2.8.2->pandas>=1.3.0->yfinance) (1.17.0)
+Requirement already satisfied: charset_normalizer<4,>=2 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from requests>=2.31->yfinance) (3.4.7)
+Requirement already satisfied: idna<4,>=2.5 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from requests>=2.31->yfinance) (3.18)
+Requirement already satisfied: urllib3<3,>=1.26 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from requests>=2.31->yfinance) (2.7.0)
+Downloading yfinance-1.6.0-py3-none-any.whl (148 kB)
+Downloading curl_cffi-0.16.0-cp310-abi3-macosx_11_0_arm64.whl (2.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.8/2.8 MB 29.8 MB/s  0:00:00
+Downloading lxml-6.1.1-cp314-cp314-macosx_10_15_universal2.whl (8.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.6/8.6 MB 48.1 MB/s  0:00:00
+Downloading multitasking-0.0.13-py3-none-any.whl (16 kB)
+Downloading peewee-4.3.0-py3-none-any.whl (179 kB)
+Downloading protobuf-7.35.1-cp310-abi3-macosx_10_9_universal2.whl (433 kB)
+Downloading pytz-2026.3.post1-py2.py3-none-any.whl (508 kB)
+Downloading websockets-17.0.1-cp314-cp314-macosx_11_0_arm64.whl (210 kB)
+Installing collected packages: pytz, multitasking, websockets, protobuf, peewee, lxml, curl_cffi, yfinance
+
+Successfully installed curl_cffi-0.16.0 lxml-6.1.1 multitasking-0.0.13 peewee-4.3.0 protobuf-7.35.1 pytz-2026.3.post1 websockets-17.0.1 yfinance-1.6.0
+Fri Aug 14 17:50:53 PDT 2026
+install ipython
+Requirement already satisfied: ipython in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (9.16.1)
+Requirement already satisfied: ipython-pygments-lexers>=1.0.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from ipython) (1.1.1)
+Requirement already satisfied: jedi>=0.18.2 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from ipython) (0.20.0)
+Requirement already satisfied: matplotlib-inline>=0.1.6 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from ipython) (0.2.2)
+Requirement already satisfied: pexpect>4.6 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from ipython) (4.9.0)
+Requirement already satisfied: prompt_toolkit<3.1.0,>=3.0.41 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from ipython) (3.0.53)
+Requirement already satisfied: psutil>=7 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from ipython) (7.2.2)
+Requirement already satisfied: pygments>=2.14.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from ipython) (2.20.0)
+Requirement already satisfied: stack_data>=0.6.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from ipython) (0.6.3)
+Requirement already satisfied: traitlets>=5.13.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from ipython) (5.16.1)
+Requirement already satisfied: wcwidth>=0.1.4 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from prompt_toolkit<3.1.0,>=3.0.41->ipython) (0.8.2)
+Requirement already satisfied: parso<0.9.0,>=0.8.6 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from jedi>=0.18.2->ipython) (0.8.7)
+Requirement already satisfied: ptyprocess>=0.5 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from pexpect>4.6->ipython) (0.7.0)
+Requirement already satisfied: executing>=1.2.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from stack_data>=0.6.0->ipython) (2.2.1)
+Requirement already satisfied: asttokens>=2.1.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from stack_data>=0.6.0->ipython) (3.0.2)
+Requirement already satisfied: pure-eval in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from stack_data>=0.6.0->ipython) (0.2.3)
+Fri Aug 14 17:50:54 PDT 2026
+install psycopg2
+Collecting psycopg2
+  Downloading psycopg2-2.9.12.tar.gz (379 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'error'
+Fri Aug 14 17:50:56 PDT 2026
+install ipython-sql
+Requirement already satisfied: ipython-sql in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (0.5.0)
+Requirement already satisfied: prettytable in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from ipython-sql) (3.18.0)
+Requirement already satisfied: ipython in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from ipython-sql) (9.16.1)
+Requirement already satisfied: sqlalchemy>=2.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from ipython-sql) (2.0.52)
+Requirement already satisfied: sqlparse in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from ipython-sql) (0.6.0)
+Requirement already satisfied: six in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from ipython-sql) (1.17.0)
+Requirement already satisfied: ipython-genutils in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from ipython-sql) (0.2.0)
+Requirement already satisfied: typing-extensions>=4.6.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from sqlalchemy>=2.0->ipython-sql) (4.16.0)
+Requirement already satisfied: ipython-pygments-lexers>=1.0.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from ipython->ipython-sql) (1.1.1)
+Requirement already satisfied: jedi>=0.18.2 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from ipython->ipython-sql) (0.20.0)
+Requirement already satisfied: matplotlib-inline>=0.1.6 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from ipython->ipython-sql) (0.2.2)
+Requirement already satisfied: pexpect>4.6 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from ipython->ipython-sql) (4.9.0)
+Requirement already satisfied: prompt_toolkit<3.1.0,>=3.0.41 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from ipython->ipython-sql) (3.0.53)
+Requirement already satisfied: psutil>=7 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from ipython->ipython-sql) (7.2.2)
+Requirement already satisfied: pygments>=2.14.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from ipython->ipython-sql) (2.20.0)
+Requirement already satisfied: stack_data>=0.6.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from ipython->ipython-sql) (0.6.3)
+Requirement already satisfied: traitlets>=5.13.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from ipython->ipython-sql) (5.16.1)
+Requirement already satisfied: wcwidth>=0.1.4 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from prompt_toolkit<3.1.0,>=3.0.41->ipython->ipython-sql) (0.8.2)
+Requirement already satisfied: parso<0.9.0,>=0.8.6 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from jedi>=0.18.2->ipython->ipython-sql) (0.8.7)
+Requirement already satisfied: ptyprocess>=0.5 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from pexpect>4.6->ipython->ipython-sql) (0.7.0)
+Requirement already satisfied: executing>=1.2.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from stack_data>=0.6.0->ipython->ipython-sql) (2.2.1)
+Requirement already satisfied: asttokens>=2.1.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from stack_data>=0.6.0->ipython->ipython-sql) (3.0.2)
+Requirement already satisfied: pure-eval in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from stack_data>=0.6.0->ipython->ipython-sql) (0.2.3)
+Fri Aug 14 17:50:57 PDT 2026
+install plotly
+Collecting plotly
+  Downloading plotly-6.9.0-py3-none-any.whl.metadata (9.0 kB)
+Requirement already satisfied: narwhals>=1.15.1 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from plotly) (2.24.0)
+Requirement already satisfied: packaging in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from plotly) (26.0)
+Downloading plotly-6.9.0-py3-none-any.whl (9.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.9/9.9 MB 41.5 MB/s  0:00:00
+Installing collected packages: plotly
+Successfully installed plotly-6.9.0
+Fri Aug 14 17:51:00 PDT 2026
+install openpyxl
+Collecting openpyxl
+  Using cached openpyxl-3.1.5-py2.py3-none-any.whl.metadata (2.5 kB)
+Collecting et-xmlfile (from openpyxl)
+  Downloading et_xmlfile-2.0.0-py3-none-any.whl.metadata (2.7 kB)
+Using cached openpyxl-3.1.5-py2.py3-none-any.whl (250 kB)
+Downloading et_xmlfile-2.0.0-py3-none-any.whl (18 kB)
+Installing collected packages: et-xmlfile, openpyxl
+
+Successfully installed et-xmlfile-2.0.0 openpyxl-3.1.5
+Fri Aug 14 17:51:02 PDT 2026
+install folium
+Collecting folium
+  Downloading folium-0.20.0-py2.py3-none-any.whl.metadata (4.2 kB)
+Collecting branca>=0.6.0 (from folium)
+  Downloading branca-0.8.2-py3-none-any.whl.metadata (1.7 kB)
+Requirement already satisfied: jinja2>=2.9 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from folium) (3.1.6)
+Requirement already satisfied: numpy in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from folium) (2.5.2)
+Requirement already satisfied: requests in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from folium) (2.34.2)
+Collecting xyzservices (from folium)
+  Downloading xyzservices-2026.3.0-py3-none-any.whl.metadata (4.1 kB)
+Requirement already satisfied: MarkupSafe>=2.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from jinja2>=2.9->folium) (3.0.3)
+Requirement already satisfied: charset_normalizer<4,>=2 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from requests->folium) (3.4.7)
+Requirement already satisfied: idna<4,>=2.5 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from requests->folium) (3.18)
+Requirement already satisfied: urllib3<3,>=1.26 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from requests->folium) (2.7.0)
+Requirement already satisfied: certifi>=2023.5.7 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from requests->folium) (2026.6.17)
+Downloading folium-0.20.0-py2.py3-none-any.whl (113 kB)
+Downloading branca-0.8.2-py3-none-any.whl (26 kB)
+Downloading xyzservices-2026.3.0-py3-none-any.whl (94 kB)
+Installing collected packages: xyzservices, branca, folium
+
+Successfully installed branca-0.8.2 folium-0.20.0 xyzservices-2026.3.0
+Fri Aug 14 17:51:03 PDT 2026
+install geopandas
+Collecting geopandas
+  Downloading geopandas-1.1.4-py3-none-any.whl.metadata (2.3 kB)
+Requirement already satisfied: numpy>=1.24 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from geopandas) (2.5.2)
+Collecting pyogrio>=0.7.2 (from geopandas)
+  Downloading pyogrio-0.13.0-cp311-abi3-macosx_12_0_arm64.whl.metadata (5.8 kB)
+Requirement already satisfied: packaging in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from geopandas) (26.0)
+Requirement already satisfied: pandas>=2.0.0 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from geopandas) (3.0.5)
+Collecting pyproj>=3.5.0 (from geopandas)
+  Downloading pyproj-3.7.2-cp314-cp314-macosx_14_0_arm64.whl.metadata (31 kB)
+Collecting shapely>=2.0.0 (from geopandas)
+  Downloading shapely-2.1.2-cp314-cp314-macosx_11_0_arm64.whl.metadata (6.8 kB)
+Requirement already satisfied: python-dateutil>=2.8.2 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from pandas>=2.0.0->geopandas) (2.9.0.post0)
+Requirement already satisfied: certifi in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from pyogrio>=0.7.2->geopandas) (2026.6.17)
+Requirement already satisfied: six>=1.5 in /opt/homebrew/Caskroom/miniconda/base/lib/python3.14/site-packages (from python-dateutil>=2.8.2->pandas>=2.0.0->geopandas) (1.17.0)
+Downloading geopandas-1.1.4-py3-none-any.whl (343 kB)
+Downloading pyogrio-0.13.0-cp311-abi3-macosx_12_0_arm64.whl (24.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 24.7/24.7 MB 45.9 MB/s  0:00:00
+Downloading pyproj-3.7.2-cp314-cp314-macosx_14_0_arm64.whl (4.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.6/4.6 MB 28.6 MB/s  0:00:00
+Downloading shapely-2.1.2-cp314-cp314-macosx_11_0_arm64.whl (1.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 37.3 MB/s  0:00:00
+Installing collected packages: shapely, pyproj, pyogrio, geopandas
+
+Successfully installed geopandas-1.1.4 pyogrio-0.13.0 pyproj-3.7.2 shapely-2.1.2
+done installation
